@@ -1,6 +1,7 @@
 /**
 Armand Ediae <br>
-20231019 1200 <br>
+Wednesday<br>
+20231025 1200 <br>
 HelloWorld <br>
 Sample to demonstrate basic java concepts
 */
