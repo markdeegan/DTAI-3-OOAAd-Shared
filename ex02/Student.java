@@ -1,6 +1,6 @@
 /** 
-Mark Deegan <br>
-20231025 1639 <br>
+Armand Ediae <br>
+20231026 1639 <br>
 Studebnt class <br>
 Sample code to demonstrate class declaration and inheritance (extending classes) <br>
 */
