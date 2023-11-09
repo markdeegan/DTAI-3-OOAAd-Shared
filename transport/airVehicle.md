@@ -1,4 +1,4 @@
-# Class air-vehicle
+# Class airVehicle
 ## extends class vehicle
 ## 2023-24, DTAI, Stage 3, OOAaD, Paddy Kelly
 + int number off engens
