@@ -19,8 +19,12 @@ public void setnumberOfEngens(int nOE)
   }
 public void numberOfPropellers(int nOP)
   {
-    numberOfPropellers = nOP
+    numberOfPropellers = nOP;
   }
-public void weaightOfVehicle(int OP)
+public void weaightOfVehicle(int wOV)
+  {
+    weaightOfVehicle = wOV;
+      }
+  
 }
 
