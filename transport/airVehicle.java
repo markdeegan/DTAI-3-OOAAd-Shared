@@ -9,7 +9,7 @@ public class airVehicle extends vehicle
   private int siveOfFuleTank;
   private int numberOfLights;
 
-public void set numberOfEngens(int nOE)
+public void setnumberOfEngens(int nOE)
   {
     numberOfEngens = nOE;
   }
