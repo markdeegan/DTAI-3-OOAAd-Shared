@@ -5,7 +5,7 @@ car class <br> */
 public class car extends landVehicle
   { 
     private int numberOfheadlights;
-    private int number of seats;
-    str Gearboxtype;
+    private int numberOfSeats;
+    // String Gearboxtype;
     
 }
