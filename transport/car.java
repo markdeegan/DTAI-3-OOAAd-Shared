@@ -4,7 +4,7 @@ Armand Ediae <br>
 car class <br> */
 public class car extends landVehicle //Puting this in to extend the class landvehicle
   {
-    public void setnumberOfSeats(int nos)// Setting the variable number of seats
+    public void setnumberOfSeats(int nos)// Setting the variable numberOfseats
     {
       numberOfSeats=nos;
     }
