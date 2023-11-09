@@ -6,5 +6,5 @@ public class landVehicle extends vehicle
   private int numberOfDoors;
   private int numberOfSeats;
   private int siveOfFuleTank;
-  private int numberOfLights;
+  private int numberOfWings;
 }
