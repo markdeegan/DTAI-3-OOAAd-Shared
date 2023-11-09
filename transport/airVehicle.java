@@ -11,11 +11,11 @@ public class airVehicle extends vehicle
 
 public void set numberOfEngens(int nOE)
   {
-    numberOfEngens = nOE
+    numberOfEngens = nOE;
   }
   public void set numberOfTires(int nOT)
   {
-    numberOfTires = nOT
+    numberOfTires = nOT;
 }
 }
 }
