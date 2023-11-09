@@ -13,7 +13,7 @@ public void setnumberOfEngens(int nOE)
   {
     numberOfEngens = nOE;
   }
-  public void set numberOfTires(int nOT)
+  public void setnumberOfTires(int nOT)
   {
     numberOfTires = nOT;
 }
