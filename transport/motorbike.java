@@ -10,6 +10,7 @@ public class motorbike extends landVehicle
     private int NeedofPPE;
     private int stiffnessofhandlebars;
     private int Numberofpeopletransported; 
+    private int numberofseats;
 }
   
   
