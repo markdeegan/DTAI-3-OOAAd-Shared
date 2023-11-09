@@ -25,6 +25,13 @@ public void weaightOfVehicle(int wOV)
   {
     weaightOfVehicle = wOV;
       }
-  
-}
+  public void numberOfSeats(int nOS)
+  {
+    numberOfSeats = nOS;
+  }
+  public void siveOfFuleTank(int sOT)
+  {
+    siveOfFuleTank = sOT;
+  }
 
+}
