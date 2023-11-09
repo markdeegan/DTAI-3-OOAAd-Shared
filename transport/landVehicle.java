@@ -4,4 +4,7 @@ public class landVehicle extends vehicle
   private int numberOfTyres;
   private int amountOfCylindersInTheEngine;
   private int numberOfDoors;
+  private int numberOfSeats;
+  private int siveOfFuleTank;
+  private int numberOflights;
 }
