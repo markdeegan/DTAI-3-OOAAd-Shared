@@ -6,7 +6,7 @@ public class car extends landVehicle
   {
     public void setnumberOfSeats(int nos)
     {
-      numberOfseats=nos;
+      numberOfSeats=nos;
     }
     private int numberOfheadlights;
     private int numberOfSeats;
