@@ -16,7 +16,7 @@ public void setnumberOfEngens(int nOE)
   public void setnumberOfTires(int nOT)
   {
     numberOfTires = nOT;
-}
-}
+  }
+
 }
 
