@@ -3,8 +3,9 @@ Paddy Kelly
 9.11.2023.11:44 
 class vehicle
 */
+
 public class airVehicle extends vehicle
-{
+{ // begin declaration of class airVehicle
   private int numberOfEngens; 
   private int numberOfTires;
   private int numberOfPropellers;  
@@ -17,25 +18,30 @@ public void setnumberOfEngens(int nOE)
   {
     numberOfEngens = nOE;
   }
-  public void setnumberOfTires(int nOT)
+////////////////////////////////////////
+public void setnumberOfTires(int nOT)
   {
     numberOfTires = nOT;
   }
+////////////////////////////////////////
 public void numberOfPropellers(int nOP)
   {
     numberOfPropellers = nOP;
   }
+////////////////////////////////////////
 public void weaightOfVehicle(int wOV)
   {
     weaightOfVehicle = wOV;
-      }
-  public void numberOfSeats(int nOS)
+  }
+////////////////////////////////////////
+public void numberOfSeats(int nOS)
   {
     numberOfSeats = nOS;
   }
-  public void siveOfFuleTank(int sOT)
+////////////////////////////////////////
+public void siveOfFuleTank(int sOT)
   {
     siveOfFuleTank = sOT;
   }
-
-}
+  
+} // end declaration of class airVehicle
