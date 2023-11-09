@@ -4,4 +4,7 @@ Armand Ediae <br>
 truck class <br> */
 public class truck extends landVehicle
 {
+  private int numberOfaxles;
+  private int numberOfexhaustpipes;
+  
 }
