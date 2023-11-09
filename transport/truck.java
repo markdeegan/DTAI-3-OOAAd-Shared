@@ -4,9 +4,9 @@ Armand Ediae <br>
 truck class <br> */
 public class truck extends landVehicle// Public class extends from the class landVehicle
 { 
-  public void setnumberOfaxles(int nos)// Setting the variable numbeOfaxles
+  public void setnumberOfaxles(int noa)// Setting the variable numbeOfaxles
     {
-      numberOfaxles=nos;
+      numberOfaxles=noa;
     }
   private int numberOfaxles;// Making the variable numberOfaxles
   private int numberOfexhaustpipes;// Making the variable numberOfexhaust pipes
