@@ -1,15 +1,36 @@
 /**
-Armand Ediae <br>
-20231109 1144<br>
-truck class <br> */
-public class truck extends landVehicle// Public class extends from the class landVehicle
-{ 
-  public void setnumberOfaxles(int noa)// Setting the variable numbeOfaxles
-    {
-      numberOfaxles=noa;
+ * Armand Ediae
+ * 20231109 1144
+ * Truck class
+ */
+public class Truck extends LandVehicle {
+
+    // Method to set the number of axles
+    public void setNumberOfAxles(int numberOfAxles) {
+        this.numberOfAxles = numberOfAxles;
     }
-  private int numberOfaxles;// Making the variable numberOfaxles
-  private int numberOfexhaustpipes;// Making the variable numberOfexhaust pipes
-  private int numberOfseats;// Making the variable numberOfSeats
-  
+
+    // Private variables
+    private int numberOfAxles; // Number of axles
+    private int numberOfExhaustPipes; // Number of exhaust pipes
+    private int numberOfSeats; // Number of seats
+    private float cargoCapacity; // Cargo capacity in cubic meters
+    private String fuelType; // Type of fuel the truck uses
+
+    // Constructor for initializing variables
+    public Truck(int axles, int exhaustPipes, int seats, float cargoCapacity, String fuelType) {
+        numberOfAxles = axles;
+        numberOfExhaustPipes = exhaustPipes;
+        numberOfSeats = seats;
+        this.cargoCapacity = cargoCapacity;
+        this.fuelType = fuelType;
+    }
+
+    // Setter method for the number of seats
+    public void setNumberOfSeats(int seats) {
+        numberOfSeats = seats;
+    }
+
+    
+
 }
