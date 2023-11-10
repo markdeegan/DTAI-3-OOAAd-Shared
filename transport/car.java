@@ -1,9 +1,9 @@
 /**
  * Armand Ediae
- * 20231109 1149
+ * 20231110 1149
  * Car class
  */
-public class Car extends LandVehicle {
+public class car extends LandVehicle {
 
     private int numberOfHeadlights;
     private int numberOfSeats;
@@ -13,8 +13,8 @@ public class Car extends LandVehicle {
     private boolean isConvertible;
     private String color;
 
-    // Constructor for initializing variables
-    public Car(int headlights, int seats, float size, String gearbox, String fuel, boolean convertible, String carColor) {
+    // Full constructor
+    public car(int headlights, int seats, float size, String gearbox, String fuel, boolean convertible, String carColor) {
         numberOfHeadlights = headlights;
         numberOfSeats = seats;
         engineSize = size;
@@ -24,11 +24,42 @@ public class Car extends LandVehicle {
         color = carColor;
     }
 
-    // Setter method for the number of seats
-    public void setNumberOfSeats(int seats) {
-        numberOfSeats = seats;
+    // Constructor with some parameters
+    public car(int headlights, int seats, float size, boolean convertible) {
+        this(headlights, seats, size, "Automatic", "Petrol", convertible, "White"); // Default values for gearbox, fuel, and color
     }
 
-    
-}
+    // Default constructor with no parameters
+    public car() {
+        this(2, 4, 1.6f, "Automatic", "Petrol", false, "Red"); // Default values for all parameters
+    }
 
+    // Getter methods
+    public int getNumberOfHeadlights() {
+        return numberOfHeadlights;
+    }
+
+    public int getNumberOfSeats() {
+        return numberOfSeats;
+    }
+
+    public float getEngineSize() {
+        return engineSize;
+    }
+
+    public String getGearboxType() {
+        return gearboxType;
+    }
+
+    public String getFuelType() {
+        return fuelType;
+    }
+
+    public boolean isConvertible() {
+        return isConvertible;
+    }
+
+    public String getColor() {
+        return color;
+    }
+}
