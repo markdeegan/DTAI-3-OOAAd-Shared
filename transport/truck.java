@@ -3,7 +3,7 @@
  * 20231109 1144
  * Truck class
  */
-public class Truck extends LandVehicle {
+public class truck extends LandVehicle {
 
     // Method to set the number of axles
     public void setNumberOfAxles(int numberOfAxles) {
@@ -18,7 +18,7 @@ public class Truck extends LandVehicle {
     private String fuelType; // Type of fuel the truck uses
 
     // Constructor for initializing variables
-    public Truck(int axles, int exhaustPipes, int seats, float cargoCapacity, String fuelType) {
+    public truck(int axles, int exhaustPipes, int seats, float cargoCapacity, String fuelType) {
         numberOfAxles = axles;
         numberOfExhaustPipes = exhaustPipes;
         numberOfSeats = seats;
