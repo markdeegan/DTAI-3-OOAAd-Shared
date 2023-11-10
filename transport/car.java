@@ -1,9 +1,9 @@
 /**
  * Armand Ediae
  * 20231110 1149
- * Car class
+ * car class
  */
-public class car extends LandVehicle {
+public class car extends landVehicle {
 
     private int numberOfHeadlights;
     private int numberOfSeats;
