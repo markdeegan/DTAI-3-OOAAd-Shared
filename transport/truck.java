@@ -1,14 +1,9 @@
 /**
  * Armand Ediae
  * 20231109 1144
- * Truck class
+ * truck class
  */
-public class truck extends LandVehicle {
-
-    // Method to set the number of axles
-    public void setNumberOfAxles(int numberOfAxles) {
-        this.numberOfAxles = numberOfAxles;
-    }
+public class truck extends landVehicle {
 
     // Private variables
     private int numberOfAxles; // Number of axles
@@ -17,8 +12,9 @@ public class truck extends LandVehicle {
     private float cargoCapacity; // Cargo capacity in cubic meters
     private String fuelType; // Type of fuel the truck uses
 
-    // Constructor for initializing variables
+    // Full constructor for initializing all variables
     public truck(int axles, int exhaustPipes, int seats, float cargoCapacity, String fuelType) {
+        super(); // Assuming a default constructor in landVehicle, you can adjust this based on your actual implementation
         numberOfAxles = axles;
         numberOfExhaustPipes = exhaustPipes;
         numberOfSeats = seats;
@@ -26,11 +22,40 @@ public class truck extends LandVehicle {
         this.fuelType = fuelType;
     }
 
-    // Setter method for the number of seats
-    public void setNumberOfSeats(int seats) {
+    // Constructor with some parameters 
+    public truck(int axles, int seats, String fuelType) {
+        super(); // Assuming a default constructor in landVehicle, you can adjust this based on your actual implementation
+        numberOfAxles = axles;
         numberOfSeats = seats;
+        this.fuelType = fuelType;
     }
 
-    
+    // Default constructor with no parameters
+    public truck() {
+        super(); // Assuming a default constructor in landVehicle, you can adjust this based on your actual implementation
+        // Initialize default values or leave them as they are
+    }
 
+    // Getter methods for retrieving values
+    public int getNumberOfAxles() {
+        return numberOfAxles;
+    }
+
+    public int getNumberOfExhaustPipes() {
+        return numberOfExhaustPipes;
+    }
+
+    public int getNumberOfSeats() {
+        return numberOfSeats;
+    }
+
+    public float getCargoCapacity() {
+        return cargoCapacity;
+    }
+
+    public String getFuelType() {
+        return fuelType;
+    }
+
+   
 }
