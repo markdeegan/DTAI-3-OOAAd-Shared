@@ -1,4 +1,5 @@
-/**
+
+    /**
  * Armand Ediae
  * 20231109 1144
  * truck class
@@ -57,5 +58,30 @@ public class truck extends landVehicle {
         return fuelType;
     }
 
-   
+    // Setter methods for modifying values
+
+    // Setter for numberOfAxles
+    public void setNumberOfAxles(int axles) {
+        numberOfAxles = axles;
+    }
+
+    // Setter for numberOfExhaustPipes
+    public void setNumberOfExhaustPipes(int exhaustPipes) {
+        numberOfExhaustPipes = exhaustPipes;
+    }
+
+    // Setter for numberOfSeats
+    public void setNumberOfSeats(int seats) {
+        numberOfSeats = seats;
+    }
+
+    // Setter for cargoCapacity
+    public void setCargoCapacity(float capacity) {
+        cargoCapacity = capacity;
+    }
+
+    // Setter for fuelType
+    public void setFuelType(String type) {
+        fuelType = type;
+    }
 }
