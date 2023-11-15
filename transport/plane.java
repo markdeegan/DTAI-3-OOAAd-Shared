@@ -45,5 +45,69 @@ public class plane extends airVehicle {
     this.cargoCapacity = cargoCapacity;
     this.airline = airline;
 }
-  
+  // Getters
+    public int getSeatNumber() {
+        return seat_number;
+    }
+
+    public int getFirstClassSeats() {
+        return firstClassSeats;
+    }
+
+    public int getEconomyClassSeats() {
+        return economyClassSeats;
+    }
+
+    public float getMaxAltitude() {
+        return maxAltitude;
+    }
+
+    public float getRange() {
+        return range;
+    }
+
+    public float getWingSpan() {
+        return wingSpan;
+    }
+
+    public float getCargoCapacity() {
+        return cargoCapacity;
+    }
+
+    public String getAirline() {
+        return airline;
+    }
+
+  // Setters
+    public void setSeatNumber(int seatNumber) {
+        this.seat_number = seat_number;
+    }
+
+    public void setFirstClassSeats(int seats) {
+        this.firstClassSeats = seats;
+    }
+
+    public void setEconomyClassSeats(int seats) {
+        this.economyClassSeats = seats;
+    }
+
+    public void setMaxAltitude(float altitude) {
+        this.maxAltitude = altitude;
+    }
+
+    public void setRange(float range) {
+        this.range = range;
+    }
+
+    public void setWingSpan(float wingSpan) {
+        this.wingSpan = wingSpan;
+    }
+
+    public void setCargoCapacity(float capacity) {
+        this.cargoCapacity = capacity;
+    }
+
+    public void setAirline(String airline) {
+        this.airline = airline;
+    }
 }
