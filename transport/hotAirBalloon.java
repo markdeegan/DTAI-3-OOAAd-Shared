@@ -11,7 +11,7 @@ public class hotAirBallon extends airVehicle {
 	    private float basketWeight; //Define the weight of the basket
 	    private float balloonVolume; //Define the weight of the balloon
 	    private int totalBalloonColours; //Total number of colours on the balloon
-	    private List<String> colours; //List the colour(s) on the balloon
+	    //private List<String> colours; //List the colour(s) on the balloon
 
 
 }
