@@ -2,4 +2,9 @@
 //202315111033
 //plane class
 
-public class plane extends airVehicle {}
+public class plane extends airVehicle {
+  
+  private int engine_number;
+  private int seat_number;
+  
+}
