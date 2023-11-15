@@ -12,7 +12,7 @@ public class landVehicle extends vehicle
   private int sizeOfFuelTank;
   private int amountOfTredds;
   private int numberOfExustes;
-  
+  private int numberOfWindows;
 // Setter method for setting the number of tyres
   public void setNumberOfTyres(int nOT)
   {
@@ -48,5 +48,9 @@ public class landVehicle extends vehicle
   {
     numberOfExaustests = nOE;
   }
-  
+  // Setter method for setting the number of windows
+  public void numberOfWindows(int nOW)
+  {
+  numberOfWindows = nOW
+    }
 } // end declaration of class landVehicle
