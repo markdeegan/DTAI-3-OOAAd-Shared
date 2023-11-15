@@ -11,5 +11,16 @@
     private int crewSize; //number of crew members
     private int passengerCapacity;//how many passangers it can carry
     private float maxSpeed;//maximum speed of the ships
-  
+
+  //creating a basic constructor
+    public ship(string name){
+      this.name = name;
+    }
+
+  //creating a constructor with only name and size details
+    public ship(sting nmae, float length, float beam){
+      this.name = name;
+      this.length = length;
+      this.beam = beam
+    }
 }
