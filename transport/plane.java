@@ -29,7 +29,7 @@ public class plane extends airVehicle {
       this.economyClassSeats = economyClassSeats;
       this.airline = airline;
 }
-//full detail constructor to set every attribute of the plane
+//full detail constructor with every attribute of the plane
   public Plane(int seat_number, int firstClassSeats, int economyClassSeats, float maxAltitude, 
              float range, float wingSpan, float cargoCapacity, String airline) {
     this.seat_number = seat_number;
