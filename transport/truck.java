@@ -1,7 +1,7 @@
 
     /**
  * Armand Ediae
- * 20231109 1144
+ * 20231115 1029
  * truck class
  */
 public class truck extends landVehicle {

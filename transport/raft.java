@@ -3,7 +3,7 @@
  * 20231411
  * raft class
  */
-public class truck extends waterVehicle {
+public class raft extends waterVehicle {
    
    // Private variables
    private int numberOfTubes; // Number of tubes

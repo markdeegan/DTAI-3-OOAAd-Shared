@@ -48,6 +48,6 @@ public void sizeOfFuelTank(int sOT)
 ////////////////////////////////////////Setter method for setting the number of lights
 public void numberOfLights(int NOL)
   {
-    numberOfLights = NOL
+    numberOfLights = NOL;
       }
 } // end declaration of class airVehicle
