@@ -2,8 +2,11 @@
 //202315111033
 //plane class
 
+
+//declare the public class plane extends from the class airvehicle
 public class plane extends airVehicle {
-  
+
+  //begin declaration of private instance variables for plane class
   private int seat_number;
   private int firstClassSeats; // Number of first-class seats
   private int economyClassSeats; // Number of economy-class seats
