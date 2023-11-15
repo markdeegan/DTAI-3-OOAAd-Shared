@@ -57,5 +57,5 @@ public void numberOfLights(int NOL)
     NumberOfAxels = NOA;
   }
  public void NumberOfwings(int NOW)
-  NumberOfwings = NOW
+  NumberOfwings = NOW;
 } // end declaration of class airVehicle
