@@ -18,9 +18,21 @@
     }
 
   //creating a constructor with only name and size details
-    public ship(sting nmae, float length, float beam){
+    public ship(sting name, float length, float beam){
       this.name = name;
       this.length = length;
-      this.beam = beam
+      this.beam = beam;
+    }
+
+  //creating a cunstructor with all attributes of the class ship
+    public ship(string name, float length, float beam, float weight, int crewSize, int passengerCapacity, float maxSpeed){
+      this.name = name;
+      this.length = length;
+      this.beam = beam;
+      this.weight = weight;
+      this.crewSize = crewSize;
+      this.passengerCapacity = passengerCapacity;
+      this.maxSpeed = maxSpeed;
+      
     }
 }
