@@ -1,3 +1,4 @@
+
 /**
  * Armand Ediae
  * 20231110 1149
@@ -61,5 +62,34 @@ public class car extends landVehicle {
 
     public String getColor() {
         return color;
+    }
+
+    // Setter methods
+    public void setNumberOfHeadlights(int numberOfHeadlights) {
+        this.numberOfHeadlights = numberOfHeadlights;
+    }
+
+    public void setNumberOfSeats(int numberOfSeats) {
+        this.numberOfSeats = numberOfSeats;
+    }
+
+    public void setEngineSize(float engineSize) {
+        this.engineSize = engineSize;
+    }
+
+    public void setGearboxType(String gearboxType) {
+        this.gearboxType = gearboxType;
+    }
+
+    public void setFuelType(String fuelType) {
+        this.fuelType = fuelType;
+    }
+
+    public void setConvertible(boolean convertible) {
+        isConvertible = convertible;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
     }
 }
