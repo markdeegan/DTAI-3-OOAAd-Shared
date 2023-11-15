@@ -18,3 +18,4 @@ public class jetski extends waterVehicle {
    private int numberOfReboardingSteps; // Number of reboarding steps
    private float cargoCapacity; // Cargo capacity in cubic meters
    private String fuelType; // Type of fuel the truck uses
+}
