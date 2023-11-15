@@ -38,4 +38,12 @@ public class plane extends airVehicle {
     this.cargoCapacity = cargoCapacity;
     this.airline = airline;
 }
-
+// constructor with range and capacity
+// for when a plane's range and cargo capacity, mainly used for cargo and long haul flights
+  public Plane(float range, float cargoCapacity, String airline) {
+    this.range = range;
+    this.cargoCapacity = cargoCapacity;
+    this.airline = airline;
+}
+  
+}
