@@ -15,7 +15,7 @@ public class airVehicle extends vehicle
   private int sizeOfFuelTank;
   private int numberOfLights;
   private int NumberOfAxels;
-
+  private int NumberOfwings;
 ////////////////////////////////////////Setter method for setting the number of engines
 public void setnumberOfEngens(int nOE)
   {
@@ -56,4 +56,6 @@ public void numberOfLights(int NOL)
   { 
     NumberOfAxels = NOA;
   }
+ public void NumberOfwings(int NOW)
+  NumberOfwings = NOW
 } // end declaration of class airVehicle
