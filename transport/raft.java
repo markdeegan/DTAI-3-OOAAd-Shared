@@ -13,3 +13,4 @@ public class raft extends waterVehicle {
    private int numberOfThwarts; // Number of thwarts
    private float cargoCapacity; // Cargo capacity in cubic meters
    private String fuelType; // Type of fuel the truck uses
+}
