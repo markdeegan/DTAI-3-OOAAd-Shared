@@ -1,13 +1,11 @@
 
 /**
  * Armand Ediae
- * 20231511 1028
+ * 20231511 1313
  * car class
  */
 public class car extends landVehicle {
 
-    private int numberOfHeadlights;
-    private int numberOfSeats;
     private float engineSize;
     private String gearboxType;
     private String fuelType;
@@ -16,8 +14,7 @@ public class car extends landVehicle {
 
     // Full constructor
     public car(int headlights, int seats, float size, String gearbox, String fuel, boolean convertible, String carColor) {
-        numberOfHeadlights = headlights;
-        numberOfSeats = seats;
+        super(headlights, seats); // Assuming a constructor in landVehicle that accepts headlights and seats
         engineSize = size;
         gearboxType = gearbox;
         fuelType = fuel;
@@ -35,14 +32,7 @@ public class car extends landVehicle {
         this(2, 4, 1.6f, "Automatic", "Petrol", false, "Red"); // Default values for all parameters
     }
 
-    // Getter methods
-    public int getNumberOfHeadlights() {
-        return numberOfHeadlights;
-    }
-
-    public int getNumberOfSeats() {
-        return numberOfSeats;
-    }
+    // Getter methods, inherited from landVehicle
 
     public float getEngineSize() {
         return engineSize;
@@ -65,13 +55,6 @@ public class car extends landVehicle {
     }
 
     // Setter methods
-    public void setNumberOfHeadlights(int numberOfHeadlights) {
-        this.numberOfHeadlights = numberOfHeadlights;
-    }
-
-    public void setNumberOfSeats(int numberOfSeats) {
-        this.numberOfSeats = numberOfSeats;
-    }
 
     public void setEngineSize(float engineSize) {
         this.engineSize = engineSize;
