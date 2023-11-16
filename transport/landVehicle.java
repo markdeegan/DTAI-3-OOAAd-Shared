@@ -19,24 +19,24 @@ public class car extends landVehicle {
     private static final String DEFAULT_COLOR = "Red";
 
     // Full constructor
-    public car(int headlights, int seats, float size, String gearbox, String fuel, boolean convertible, String carColor) {
+    /* public car(int headlights, int seats, float size, String gearbox, String fuel, boolean convertible, String carColor) {
         super(headlights, seats);
         engineSize = size;
         gearboxType = gearbox;
         fuelType = fuel;
         isConvertible = convertible;
         color = carColor;
-    }
+    }*/
 
     // Constructor with some parameters
-    public Car(int headlights, int seats, float size, boolean convertible) {
+    /* public Car(int headlights, int seats, float size, boolean convertible) {
         this(headlights, seats, size, DEFAULT_GEARBOX_TYPE, DEFAULT_FUEL_TYPE, convertible, DEFAULT_COLOR);
-    }
+    } */
 
     // Default constructor with no parameters
-    public Car() {
+    /* public Car() {
         this(DEFAULT_HEADLIGHTS, DEFAULT_SEATS, DEFAULT_ENGINE_SIZE, DEFAULT_GEARBOX_TYPE, DEFAULT_FUEL_TYPE, DEFAULT_IS_CONVERTIBLE, DEFAULT_COLOR);
-    }
+    } */
 
     // Getter methods, inherited from LandVehicle
 
