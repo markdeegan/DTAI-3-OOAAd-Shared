@@ -13,7 +13,7 @@
     private float maxSpeed;//maximum speed of the ships
 
   //creating a basic constructor
-    public ship(string name){
+    public ship(String name){
       this.name = name;
     }
 
