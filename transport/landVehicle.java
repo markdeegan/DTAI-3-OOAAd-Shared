@@ -1,108 +1,84 @@
 /** paddy kelly 9.11.2023.11:44 vehicle*/
 // Description: This class represents a land vehicle and extends the vehicle class.
 
-public class landVehicle extends vehicle {
+public class car extends landVehicle {
 
-    // Declare private instance variables for landVehicle class
-    private int numberOfTyres;
-    private int amountOfCylindersInTheEngine;
-    private int numberOfDoors;
-    private int numberOfSeats;
-    private int sizeOfFuelTank;
-    private int amountOfTreads;
-    private int numberOfExhausts;
-    private int numberOfWindows;
-    private int numberOfAxles;
-    private int numberOfHeadlights;
+    private float engineSize;
+    private String gearboxType;
+    private String fuelType;
+    private boolean isConvertible;
+    private String color;
+
+    // Constants for default values
+    private static final int DEFAULT_HEADLIGHTS = 2;
+    private static final int DEFAULT_SEATS = 4;
+    private static final float DEFAULT_ENGINE_SIZE = 1.6f;
+    private static final String DEFAULT_GEARBOX_TYPE = "Automatic";
+    private static final String DEFAULT_FUEL_TYPE = "Petrol";
+    private static final boolean DEFAULT_IS_CONVERTIBLE = false;
+    private static final String DEFAULT_COLOR = "Red";
+
+    // Full constructor
+    public car(int headlights, int seats, float size, String gearbox, String fuel, boolean convertible, String carColor) {
+        super(headlights, seats);
+        engineSize = size;
+        gearboxType = gearbox;
+        fuelType = fuel;
+        isConvertible = convertible;
+        color = carColor;
+    }
 
     // Constructor with some parameters
-    public landVehicle(int axles, int headlights, int seats) {
-        numberOfHeadlights = headlights;
-        numberOfSeats = seats;
-        numberOfAxles = axles;
+    public Car(int headlights, int seats, float size, boolean convertible) {
+        this(headlights, seats, size, DEFAULT_GEARBOX_TYPE, DEFAULT_FUEL_TYPE, convertible, DEFAULT_COLOR);
     }
 
-    // Getter methods for retrieving the values of private instance variables
-
-    public int getNumberOfTyres() {
-        return numberOfTyres;
+    // Default constructor with no parameters
+    public Car() {
+        this(DEFAULT_HEADLIGHTS, DEFAULT_SEATS, DEFAULT_ENGINE_SIZE, DEFAULT_GEARBOX_TYPE, DEFAULT_FUEL_TYPE, DEFAULT_IS_CONVERTIBLE, DEFAULT_COLOR);
     }
 
-    public int getAmountOfCylindersInTheEngine() {
-        return amountOfCylindersInTheEngine;
+    // Getter methods, inherited from LandVehicle
+
+    public float getEngineSize() {
+        return engineSize;
     }
 
-    public int getNumberOfDoors() {
-        return numberOfDoors;
+    public String getGearboxType() {
+        return gearboxType;
     }
 
-    public int getNumberOfSeats() {
-        return numberOfSeats;
+    public String getFuelType() {
+        return fuelType;
     }
 
-    public int getSizeOfFuelTank() {
-        return sizeOfFuelTank;
+    public boolean isConvertible() {
+        return isConvertible;
     }
 
-    public int getAmountOfTreads() {
-        return amountOfTreads;
+    public String getColor() {
+        return color;
     }
 
-    public int getNumberOfExhausts() {
-        return numberOfExhausts;
+    // Setter methods
+
+    public void setEngineSize(float engineSize) {
+        this.engineSize = engineSize;
     }
 
-    public int getNumberOfWindows() {
-        return numberOfWindows;
+    public void setGearboxType(String gearboxType) {
+        this.gearboxType = gearboxType;
     }
 
-    public int getNumberOfAxles() {
-        return numberOfAxles;
+    public void setFuelType(String fuelType) {
+        this.fuelType = fuelType;
     }
 
-    public int getNumberOfHeadlights() {
-        return numberOfHeadlights;
+    public void setConvertible(boolean convertible) {
+        isConvertible = convertible;
     }
 
-    // Setter methods for setting the values of private instance variables
-
-    public void setNumberOfTyres(int numberOfTyres) {
-        this.numberOfTyres = numberOfTyres;
-    }
-
-    public void setAmountOfCylindersInTheEngine(int amountOfCylinders) {
-        amountOfCylindersInTheEngine = amountOfCylinders;
-    }
-
-    public void setNumberOfDoors(int numberOfDoors) {
-        this.numberOfDoors = numberOfDoors;
-    }
-
-    public void setNumberOfSeats(int numberOfSeats) {
-        this.numberOfSeats = numberOfSeats;
-    }
-
-    public void setSizeOfFuelTank(int sizeOfFuelTank) {
-        this.sizeOfFuelTank = sizeOfFuelTank;
-    }
-
-    public void setAmountOfTreads(int amountOfTreads) {
-        this.amountOfTreads = amountOfTreads;
-    }
-
-    public void setNumberOfExhausts(int numberOfExhausts) {
-        this.numberOfExhausts = numberOfExhausts;
-    }
-
-    public void setNumberOfWindows(int numberOfWindows) {
-        this.numberOfWindows = numberOfWindows;
-    }
-
-    public void setNumberOfAxles(int numberOfAxles) {
-        this.numberOfAxles = numberOfAxles;
-    }
-
-    public void setNumberOfHeadlights(int numberOfHeadlights) {
-        this.numberOfHeadlights = numberOfHeadlights;
+    public void setColor(String color) {
+        this.color = color;
     }
 }
