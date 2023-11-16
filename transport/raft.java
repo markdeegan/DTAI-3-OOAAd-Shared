@@ -18,7 +18,7 @@ public class raft extends waterVehicle {
       numberOfTubes = Tubes;
       numberOfSeams = Seams;
       numberOfValves = Valves;
-      numberOfFloors = floors;
+      numberOfFloors = Floors; // MD20231116 assigned as floors here, but passed as Floors above, fixed it now
       numberOfThwarts = Thwarts;
       this.Capacity = Capacity;
       this.fuelType = fuelType; //here this.furlType refers to the data member of this class fuelType and fuelType without this. refers to the parameter fuelType.
