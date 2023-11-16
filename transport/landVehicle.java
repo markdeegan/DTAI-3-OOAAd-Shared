@@ -46,7 +46,7 @@ public class landVehicle extends vehicle
     // Setter method for setting the number of exaustests  
   public void numberOfExaustests(int nOE)
   {
-    numberOfExaustests = nOE;
+    numberOfExustes = nOE;
   }
   // Setter method for setting the number of windows
   public void numberOfWindows(int nOW)
