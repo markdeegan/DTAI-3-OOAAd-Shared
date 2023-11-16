@@ -33,6 +33,10 @@ public class airVehicle extends vehicle
 	  //Here this.NumberOfwings refers to the class member NumberOfwings. NumberOfwings without the "this." refers to the parameter of the same name.
   }
 
+  //Default constructor
+  public airVehicle() {
+  }
+
 //Changes made to parameters in setter methods by Eoin Finnerty 20231116 1204.
 //Did this so that the parameters would reflect those I created in the constructor.
 //Done so that I may better understand the code and to make it easier for me to write my code.
