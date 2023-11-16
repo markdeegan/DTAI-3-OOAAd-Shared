@@ -18,14 +18,17 @@
     }
 
   //creating a constructor with only name and size details
-    public ship(sting name, float length, float beam){
+  // MD20231116-1014 fixed this to name String not string
+    public ship(String name, float length, float beam){
       this.name = name;
       this.length = length;
       this.beam = beam;
     }
 
   //creating a cunstructor with all attributes of the class ship
-    public ship(string name, float length, float beam, float weight, int crewSize, int passengerCapacity, float maxSpeed){
+	// MD20231116-1014 fixed this to name String not string
+
+    public ship(String name, float length, float beam, float weight, int crewSize, int passengerCapacity, float maxSpeed){
       this.name = name;
       this.length = length;
       this.beam = beam;

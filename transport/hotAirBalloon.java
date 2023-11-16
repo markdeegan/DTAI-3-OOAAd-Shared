@@ -4,7 +4,7 @@ This is to create class hotAirBallon which extends class airVehicle
 */
 
 //Declare the public class hotAirBallon, extending air vehicle class
-public class hotAirBallon extends airVehicle {
+public class hotAirBalloon extends airVehicle {
 
 	 	//Private variables
 	    private float balloonVolume; //Define the maximum volume of the balloon
