@@ -6,11 +6,11 @@
 public class truck extends landVehicle {
 
     //* Private variable specific to the truck class
-    private int numberOfExhaustPipes; //* Number of exhaust pipes
-    private float cargoCapacity; //* Cargo capacity in cubic meters
-    private String fuelType; //* Type of fuel the truck uses
+    private int numberOfExhaustPipes; /** Number of exhaust pipes */
+    private float cargoCapacity; /** Cargo capacity in cubic meters */
+    private String fuelType; /** Type of fuel the truck uses */
 
-    //* Full constructor for initializing all variables
+    /** Full constructor for initializing all variables */
     public truck(int axles, int exhaustPipes, int seats, float cargoCapacity, String fuelType) {
         super(axles, seats); //* Assuming a constructor in landVehicle that accepts axles and seats
         numberOfExhaustPipes = exhaustPipes;
