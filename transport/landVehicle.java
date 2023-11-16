@@ -51,6 +51,6 @@ public class landVehicle extends vehicle
   // Setter method for setting the number of windows
   public void numberOfWindows(int nOW)
   {
-  numberOfWindows = nOW
+  numberOfWindows = nOW;
     }
 } // end declaration of class landVehicle
