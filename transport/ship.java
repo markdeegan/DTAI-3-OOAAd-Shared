@@ -2,6 +2,7 @@
 //2023.15.11.14:53
 //ship class
 
+
 //declare the public class ship extends from the class watervehicle
   public class ship extends waterVehicle{
     private String name; //name of the ship
