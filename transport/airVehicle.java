@@ -1,21 +1,35 @@
-/** 
-Paddy Kelly 
-9.11.2023.11:44 
+/**
+Paddy Kelly
+9.11.2023.11:44
 class vehicle
 */
 // Declare the public class airVehicle, extending the vehicle class
 public class airVehicle extends vehicle
-{ 
+{
   // begin declaration of private instance variables for airVehicle class
-  private int numberOfEngens; 
+  private int numberOfEngens;
   private int numberOfTires;
-  private int numberOfPropellers;  
+  private int numberOfPropellers;
   private int weightOfVehicle;
   private int numberOfSeats;
   private int sizeOfFuelTank;
   private int numberOfLights;
   private int NumberOfAxels;
   private int NumberOfwings;
+
+  //Constructor created by Eoin Finnerty 20231116 1143. Needed for constructors in helicopter & hotAirBalloon to work. Given Permission by Mark.
+  public airVehicle(int engines, int tires, int propellers, int weight, int seats, int fuelTank, int lights, int axels, int wings){
+	  numberOfEngens = engines;
+	  numberOfTires = tires;
+	  numberOfPropellers = propellers;
+	  weightOfVehicle = weight;
+	  numberOfSeats = seats;
+	  sizeOfFuelTank = fuelTank;
+	  numberOfLights = lights;
+	  NumberOfAxels = axels;
+	  NumberOfwings = wings;
+  }
+
 ////////////////////////////////////////Setter method for setting the number of engines
 public void setnumberOfEngens(int nOE)
   {
@@ -53,7 +67,7 @@ public void numberOfLights(int NOL)
       }
 ////////////////////////////////////////Setter method for setting the number of Axels
   public void NumberOfAxels(int NOA)
-  { 
+  {
     NumberOfAxels = NOA;
   }
  public void NumberOfwings(int NOW)
