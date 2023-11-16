@@ -20,7 +20,7 @@ public class truck extends landVehicle {
 
     //* Constructor with some parameters 
     public truck(int axles, int seats, String fuelType) {
-        super(axles, seats); // Assuming a constructor in landVehicle that accepts axles and seats
+        super(axles, seats); //*Assuming a constructor in landVehicle that accepts axles and seats
         this.fuelType = fuelType;
     }
 
