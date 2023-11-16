@@ -1,9 +1,9 @@
 /** Eoin Finnerty <br>
 Wednesday 20231115 1034 <br>
-This is to create class hotAirBallon which extends class airVehicle
+This is to create class hotAirBalloon which extends class airVehicle
 */
 
-//Declare the public class hotAirBallon, extending air vehicle class
+//Declare the public class hotAirBalloon, extending air vehicle class
 public class hotAirBalloon extends airVehicle {
 
 	 	//Private variables
