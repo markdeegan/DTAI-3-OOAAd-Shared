@@ -17,12 +17,18 @@ public class hotAirBalloon extends airVehicle {
 			super(engines, tires, propellers, weight, seats, fuelTank, lights, axels, NumberOfwings);
 		}
 
-	    //Constructor with only variables from hotAirBalloon class
+	    //Constructor with all variables from hotAirBalloon class
 	    public hotAirBalloon(float volume, float basket, float balloon, int colours) {
 		        balloonVolume = volume;
 		        basketWeight = basket;
 		        balloonWeight = balloon;
 		        totalBalloonColours = colours;
+		}
+
+		//Constructor with all variables from hotAirBalloon class & parent class airVehicle
+		public hotAirBalloon(int engines, int tires, int propellers, int weight, int seats, int fuelTank, int lights, int axels, int NumberOfwings, float volume, float basket, float balloon, int colours){
+			super(engines, tires, propellers, weight, seats, fuelTank, lights, axels, NumberOfwings);
+			this(volume, basket, balloon, colours);
 		}
 
 		//Default Constructor
