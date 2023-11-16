@@ -39,4 +39,6 @@ public class jetski extends waterVehicle {
       numberOfReboardingSteps = ReboardingSteps;
       this.Capacity = Capacity;
       this.fuelType = fuelType; //here this.furlType refers to the data member of this class fuelType and fuelType without this. refers to the parameter fuelType.
-}
+   }
+} // closing brace was missing on constructor or on classs declaration
+// this can be avoided by ensuring that every opening brace and every closing brace is commented.
