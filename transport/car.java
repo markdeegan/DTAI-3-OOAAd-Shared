@@ -11,9 +11,9 @@ public class car extends landVehicle {
     private boolean isConvertible;
     private String color;
 
-    // Full constructor
+    //* Full constructor
     public car(int headlights, int seats, float size, String gearbox, String fuel, boolean convertible, String carColor) {
-        super(headlights, seats); // Assuming a constructor in landVehicle that accepts headlights and seats
+        super(headlights, seats); //* Assuming a constructor in landVehicle that accepts headlights and seats
         engineSize = size;
         gearboxType = gearbox;
         fuelType = fuel;
@@ -21,17 +21,17 @@ public class car extends landVehicle {
         color = carColor;
     }
 
-    // Constructor with some parameters
+    //* Constructor with some parameters
     public car(int headlights, int seats, float size, boolean convertible) {
-        this(headlights, seats, size, "Automatic", "Petrol", convertible, "White"); // Default values for gearbox, fuel, and color
+        this(headlights, seats, size, "Automatic", "Petrol", convertible, "White"); //* Default values for gearbox, fuel, and color
     }
 
-    // Default constructor with no parameters
+    //* Default constructor with no parameters
     public car() {
         this(2, 4, 1.6f, "Automatic", "Petrol", false, "Red"); // Default values for all parameters
     }
 
-    // Getter methods, inherited from landVehicle
+    //* Getter methods, inherited from landVehicle
 
     public float getEngineSize() {
         return engineSize;
@@ -53,7 +53,7 @@ public class car extends landVehicle {
         return color;
     }
 
-    // Setter methods
+    //* Setter methods
 
     public void setEngineSize(float engineSize) {
         this.engineSize = engineSize;
