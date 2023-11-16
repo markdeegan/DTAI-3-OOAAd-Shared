@@ -12,6 +12,10 @@ public class truck extends landVehicle {
 
     /** Full constructor for initializing all variables 
     @param axles number of axles on this vehicle
+    @param exhaustPipes number of exhaust pipes on this vehicle
+    @param seats number of seats in this vehicle
+    @param cargoCapacity cargo capacity in Kg of this vehicle
+    @param fuelType indicated Petrol, Diesel, Kerosene, HVO etc. fuel
     */
  public truck(int axles, int exhaustPipes, int seats, float cargoCapacity, String fuelType)
  {
