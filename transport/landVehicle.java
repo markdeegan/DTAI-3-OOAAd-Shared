@@ -1,7 +1,7 @@
 /** paddy kelly 9.11.2023.11:44 vehicle*/
 // Description: This class represents a land vehicle and extends the vehicle class.
 
-public class car extends landVehicle {
+public class landVehicle extends vehicle {
 
     private float engineSize;
     private String gearboxType;
