@@ -10,15 +10,15 @@ public class truck extends landVehicle {
     private float cargoCapacity; /** Cargo capacity in cubic meters */
     private String fuelType; /** Type of fuel the truck uses */
 
-    public truck(int axles, int exhaustPipes, int seats, float cargoCapacity, String fuelType)
     /** Full constructor for initializing all variables 
     @param axles */
-    {
+ public truck(int axles, int exhaustPipes, int seats, float cargoCapacity, String fuelType)
+ {
         super(axles, seats); //* Assuming a constructor in landVehicle that accepts axles and seats
         numberOfExhaustPipes = exhaustPipes;
         this.cargoCapacity = cargoCapacity;
         this.fuelType = fuelType;
-    }
+ }
 
     //* Constructor with some parameters 
     public truck(int axles, int seats, String fuelType) {
