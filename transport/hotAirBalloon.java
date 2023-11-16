@@ -12,9 +12,9 @@ public class hotAirBalloon extends airVehicle {
 	    private float balloonWeight; //Define the weight of the balloon
 	    private int totalBalloonColours; //Total number of colours on the balloon
 
-	    //Constructor with some variables
+
+	    //Constructor with only variables from hotAirBalloon class
 	    public hotAirBalloon(float volume, float basket, float balloon, int colours) {
-		        super();
 		        balloonVolume = volume;
 		        basketWeight = basket;
 		        balloonWeight = balloon;
@@ -23,7 +23,6 @@ public class hotAirBalloon extends airVehicle {
 
 		//Default Constructor
 		public hotAirBalloon() {
-			super();
 		}
 
 

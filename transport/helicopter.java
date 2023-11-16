@@ -14,9 +14,8 @@ public class helicopter extends airVehicle {
 	    private float mainBladeLength; //Length of blades on main rotary system(s)
 	    private float rearBladeLength; //Length of blades on rear rotary system(s)
 
-		//Constructor with some variables
+		//Constructor with only variables from helicopter class
 		public helicopter(int rotary, int mains, int rears, int blades, float mainLength, float rearLength) {
-			     super();
 			     numberOfRotarySystems = rotary;
 			     numberOfMainSystems = mains;
 			     numberOfRearSystems = rears;
@@ -27,7 +26,6 @@ public class helicopter extends airVehicle {
 
 		//Default Constructor
 		public helicopter() {
-				super();
 		}
 
 	}
