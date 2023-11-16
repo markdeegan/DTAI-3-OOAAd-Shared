@@ -20,7 +20,7 @@ public class raft extends waterVehicle {
       numberOfValves = Valves;
       numberOfFloors = floors;
       numberOfThwarts = Thwarts;
-      this.Capacity = Capacity
+      this.Capacity = Capacity;
       this.fuelType = fuelType; //here this.furlType refers to the data member of this class fuelType and fuelType without this. refers to the parameter fuelType.
    
 }
