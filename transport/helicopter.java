@@ -32,8 +32,17 @@ public class helicopter extends airVehicle {
 		//Constructor with all variables from helicopter class & parent class airVehicle
 		public helicopter(int engines, int tires, int propellers, int weight, int seats, int fuelTank, int lights, int axels, int NumberOfwings, int rotary, int mains, int rears, int blades, float mainLength, float rearLength){
 			// Switching order of this() and super() I am not sure if we can call both within a constructor
-		 	this(rotary, mains, rears, blades, mainLength, rearLength);
+		 	
 			super(engines, tires, propellers, weight, seats, fuelTank, lights, axels, NumberOfwings);
+			// MD20231116 1513 it looks like we cannot use both super() and this() in the same constructor
+			// so I am removing the call to this() and copying the code from the appropriate constructor above
+			// this(rotary, mains, rears, blades, mainLength, rearLength);
+			numberOfRotarySystems = rotary;
+			numberOfMainSystems = mains;
+			numberOfRearSystems = rears;
+			numberOfBlades = blades;
+			mainBladeLength = mainLength;
+			rearBladeLength = rearLength;
 		}
 
 		//Default Constructor
