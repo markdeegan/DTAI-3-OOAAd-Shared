@@ -22,5 +22,6 @@ public class raft extends waterVehicle {
       numberOfThwarts = Thwarts;
       this.Capacity = Capacity;
       this.fuelType = fuelType; //here this.furlType refers to the data member of this class fuelType and fuelType without this. refers to the parameter fuelType.
-   
-}
+   }
+} // again, missing closing brace on either constructor or on class declaration
+// again this aould be avoided by ensuring that all openeing braces { and all closing braces } are commented
