@@ -18,11 +18,15 @@ public class landVehicle extends vehicle {
     private static final boolean DEFAULT_IS_CONVERTIBLE = false;
     private static final String DEFAULT_COLOR = "Red";
 
+    public landVehicle()
+    // MD default constructor that does nothing
+    {
+    }
+    
     public landVehicle(int x, int y) 
     // MD does absolutely nothing, ignores the two integers, 
     // for a start number of headlights does not exist
     // abnd also, number of seats does not exist in class landVehicle
-    
     {
     }
     
