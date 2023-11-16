@@ -1,7 +1,7 @@
 /** paddy kelly 9.11.2023.11:44 vehicle*/
 // Description: This class represents a land vehicle and extends the vehicle class.
 
-public class car extends landVehicle {
+public class landVehicle extends vehicle {
 
     private float engineSize;
     private String gearboxType;
@@ -18,25 +18,37 @@ public class car extends landVehicle {
     private static final boolean DEFAULT_IS_CONVERTIBLE = false;
     private static final String DEFAULT_COLOR = "Red";
 
+    public landVehicle()
+    // MD default constructor that does nothing
+    {
+    }
+    
+    public landVehicle(int x, int y) 
+    // MD does absolutely nothing, ignores the two integers, 
+    // for a start number of headlights does not exist
+    // abnd also, number of seats does not exist in class landVehicle
+    {
+    }
+    
     // Full constructor
-    public car(int headlights, int seats, float size, String gearbox, String fuel, boolean convertible, String carColor) {
+    /* public car(int headlights, int seats, float size, String gearbox, String fuel, boolean convertible, String carColor) {
         super(headlights, seats);
         engineSize = size;
         gearboxType = gearbox;
         fuelType = fuel;
         isConvertible = convertible;
         color = carColor;
-    }
+    }*/
 
     // Constructor with some parameters
-    public Car(int headlights, int seats, float size, boolean convertible) {
+    /* public Car(int headlights, int seats, float size, boolean convertible) {
         this(headlights, seats, size, DEFAULT_GEARBOX_TYPE, DEFAULT_FUEL_TYPE, convertible, DEFAULT_COLOR);
-    }
+    } */
 
     // Default constructor with no parameters
-    public Car() {
+    /* public Car() {
         this(DEFAULT_HEADLIGHTS, DEFAULT_SEATS, DEFAULT_ENGINE_SIZE, DEFAULT_GEARBOX_TYPE, DEFAULT_FUEL_TYPE, DEFAULT_IS_CONVERTIBLE, DEFAULT_COLOR);
-    }
+    } */
 
     // Getter methods, inherited from LandVehicle
 
