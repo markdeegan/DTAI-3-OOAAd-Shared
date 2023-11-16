@@ -1,66 +1,108 @@
 /** paddy kelly 9.11.2023.11:44 vehicle*/
 // Description: This class represents a land vehicle and extends the vehicle class.
 
-public class landVehicle extends vehicle
+public class landVehicle extends vehicle {
 
-{
-// Declare private instance variables for landVehicle class
-  private int numberOfTyres;
-  private int amountOfCylindersInTheEngine;
-  private int numberOfDoors;
-  private int numberOfSeats;
-  private int sizeOfFuelTank;
-  private int amountOfTredds;
-  private int numberOfExustes;
-  private int numberOfWindows;
-  private int numberofAxles;
-  private int numberofHeadlights,
-// Setter method for setting the number of tyres
-  public void setNumberOfTyres(int nOT)
-  {
-    numberOfTyres = nOT;
-     }
+    // Declare private instance variables for landVehicle class
+    private int numberOfTyres;
+    private int amountOfCylindersInTheEngine;
+    private int numberOfDoors;
+    private int numberOfSeats;
+    private int sizeOfFuelTank;
+    private int amountOfTreads;
+    private int numberOfExhausts;
+    private int numberOfWindows;
+    private int numberOfAxles;
+    private int numberOfHeadlights;
+
     // Constructor with some parameters
     public landVehicle(int axles, int headlights, int seats) {
-       numberOfHeadlights = headlights;
-       numberOfSeats = seats;
-       numberOfAxles = axles;
-       
+        numberOfHeadlights = headlights;
+        numberOfSeats = seats;
+        numberOfAxles = axles;
     }
-  }
-// Setter method for setting the amount of cylinders in the engine
-  public void setAmountOfCylinders(int AOC) 
-  {
-    amountOfCylindersInTheEngine = AOC;
-  }
-// Setter method for setting the number of doors
-  public void setNumberOfDoors(int NOD) 
-  {
-    numberOfDoors = NOD;
-  }
-// Setter method for setting the number of seats
-  public void setNumberOfSeats(int NOS)
-  {
-    numberOfSeats = NOS;
-  }
-// Setter method for setting the size of the fuel tank
-  public void setSizeOfFuelTank(int sOT)
-  {
-    sizeOfFuelTank = sOT;
-  }
-  // Setter method for setting the amount of Tredds on a veicle 
-  public void amountOfTredds(int aOT)
-  {
-    amountOfTredds = aOT;
-  }
-    // Setter method for setting the number of exaustests  
-  public void numberOfExaustests(int nOE)
-  {
-    numberOfExustes = nOE;
-  }
-  // Setter method for setting the number of windows
-  public void numberOfWindows(int nOW)
-  {
-  numberOfWindows = nOW;
+
+    // Getter methods for retrieving the values of private instance variables
+
+    public int getNumberOfTyres() {
+        return numberOfTyres;
     }
-} // end declaration of class landVehicle
+
+    public int getAmountOfCylindersInTheEngine() {
+        return amountOfCylindersInTheEngine;
+    }
+
+    public int getNumberOfDoors() {
+        return numberOfDoors;
+    }
+
+    public int getNumberOfSeats() {
+        return numberOfSeats;
+    }
+
+    public int getSizeOfFuelTank() {
+        return sizeOfFuelTank;
+    }
+
+    public int getAmountOfTreads() {
+        return amountOfTreads;
+    }
+
+    public int getNumberOfExhausts() {
+        return numberOfExhausts;
+    }
+
+    public int getNumberOfWindows() {
+        return numberOfWindows;
+    }
+
+    public int getNumberOfAxles() {
+        return numberOfAxles;
+    }
+
+    public int getNumberOfHeadlights() {
+        return numberOfHeadlights;
+    }
+
+    // Setter methods for setting the values of private instance variables
+
+    public void setNumberOfTyres(int numberOfTyres) {
+        this.numberOfTyres = numberOfTyres;
+    }
+
+    public void setAmountOfCylindersInTheEngine(int amountOfCylinders) {
+        amountOfCylindersInTheEngine = amountOfCylinders;
+    }
+
+    public void setNumberOfDoors(int numberOfDoors) {
+        this.numberOfDoors = numberOfDoors;
+    }
+
+    public void setNumberOfSeats(int numberOfSeats) {
+        this.numberOfSeats = numberOfSeats;
+    }
+
+    public void setSizeOfFuelTank(int sizeOfFuelTank) {
+        this.sizeOfFuelTank = sizeOfFuelTank;
+    }
+
+    public void setAmountOfTreads(int amountOfTreads) {
+        this.amountOfTreads = amountOfTreads;
+    }
+
+    public void setNumberOfExhausts(int numberOfExhausts) {
+        this.numberOfExhausts = numberOfExhausts;
+    }
+
+    public void setNumberOfWindows(int numberOfWindows) {
+        this.numberOfWindows = numberOfWindows;
+    }
+
+    public void setNumberOfAxles(int numberOfAxles) {
+        this.numberOfAxles = numberOfAxles;
+    }
+
+    public void setNumberOfHeadlights(int numberOfHeadlights) {
+        this.numberOfHeadlights = numberOfHeadlights;
+    }
+}
