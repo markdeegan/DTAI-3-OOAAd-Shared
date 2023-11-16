@@ -2,6 +2,7 @@
 //2023.15.11.14:53
 //ship class
 
+
 //declare the public class ship extends from the class watervehicle
   public class ship extends waterVehicle{
     private String name; //name of the ship
@@ -13,7 +14,7 @@
     private float maxSpeed;//maximum speed of the ships
 
   //creating a basic constructor
-    public ship(string name){
+    public ship(String name){
       this.name = name;
     }
 
