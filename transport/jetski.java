@@ -19,7 +19,14 @@ public class jetski extends waterVehicle {
    private float Capacity; // Capacity
    private String fuelType; // Type of fuel
 
-   public raft(int TopDeck, int Hulls, int Engines, int FuelLines, int Electronics, int StorageBins, int Seats, int HandleBars, int Cleats, int ReboardingSteps, float Capacity, String fuelType){
+   // MD if we have added a constructor as below, with parameters, we would be well advised to 
+   // replace the default constructor (no parameters) that will disappear as a consequence
+   public jetski() // does nothing default constructor with no parameters
+   {
+   }
+   
+   // MD 20231116 1457, renaming the constructor as public jetski not public raft
+   public jetski(int TopDeck, int Hulls, int Engines, int FuelLines, int Electronics, int StorageBins, int Seats, int HandleBars, int Cleats, int ReboardingSteps, float Capacity, String fuelType){
       numberOfTopDeck = TopDeck;
       numberOfHulls = Hulls;
       numberOfEngines = Engines;
