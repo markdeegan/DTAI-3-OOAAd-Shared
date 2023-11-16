@@ -11,7 +11,8 @@ public class truck extends landVehicle {
     private String fuelType; /** Type of fuel the truck uses */
 
     public truck(int axles, int exhaustPipes, int seats, float cargoCapacity, String fuelType)
-    /** Full constructor for initializing all variables */
+    /** Full constructor for initializing all variables 
+    @param axles */
     {
         super(axles, seats); //* Assuming a constructor in landVehicle that accepts axles and seats
         numberOfExhaustPipes = exhaustPipes;
