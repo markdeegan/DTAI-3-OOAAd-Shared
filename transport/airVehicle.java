@@ -17,8 +17,10 @@ public class airVehicle extends vehicle
   private int NumberOfAxels;
   private int NumberOfwings;
 
-  //Constructor created by Eoin Finnerty 20231116 1143. Needed for constructors in helicopter & hotAirBalloon to work. Given Permission by Mark.
-  public airVehicle(int engines, int tires, int propellers, int weight, int seats, int fuelTank, int lights, int axels, int wings){
+  //Constructor created by Eoin Finnerty 20231116 1143.
+  //Needed for constructors in helicopter & hotAirBalloon to work.
+  //Given permission by Mark.
+  public airVehicle(int engines, int tires, int propellers, int weight, int seats, int fuelTank, int lights, int axels, int NumberOfwings){
 	  numberOfEngens = engines;
 	  numberOfTires = tires;
 	  numberOfPropellers = propellers;
@@ -27,51 +29,56 @@ public class airVehicle extends vehicle
 	  sizeOfFuelTank = fuelTank;
 	  numberOfLights = lights;
 	  NumberOfAxels = axels;
-	  NumberOfwings = wings;
+	  this.NumberOfwings = NumberOfwings;
+	  //Here this.NumberOfwings refers to the class member NumberOfwings. NumberOfwings without the "this." refers to the parameter of the same name.
   }
 
+//Changes made to parameters in setter methods by Eoin Finnerty 20231116 1204.
+//Did this so that the parameters would reflect those I created in the constructor.
+//Done so that I may better understand the code and to make it easier for me to write my code.
+//Give permission by Mark.
 ////////////////////////////////////////Setter method for setting the number of engines
-public void setnumberOfEngens(int nOE)
+public void setnumberOfEngens(int engines)
   {
-    numberOfEngens = nOE;
+    numberOfEngens = engines;
   }
 ////////////////////////////////////////Setter method for setting the number of tires
-public void setnumberOfTires(int nOT)
+public void setnumberOfTires(int tires)
   {
-    numberOfTires = nOT;
+    numberOfTires = tires;
   }
 ////////////////////////////////////////Setter method for setting the number of propellers
-public void numberOfPropellers(int nOP)
+public void numberOfPropellers(int propellers)
   {
-    numberOfPropellers = nOP;
+    numberOfPropellers = propellers;
   }
 ////////////////////////////////////////Setter method for setting the weight of the vehicle
-public void weightOfVehicle(int wOV)
+public void weightOfVehicle(int weight)
   {
-    weightOfVehicle = wOV;
+    weightOfVehicle = weight;
   }
 ////////////////////////////////////////Setter method for setting the number of seats
-public void numberOfSeats(int nOS)
+public void numberOfSeats(int seats)
   {
-    numberOfSeats = nOS;
+    numberOfSeats = seats;
   }
 ////////////////////////////////////////Setter method for setting the size of the fuel tank
-public void sizeOfFuelTank(int sOT)
+public void sizeOfFuelTank(int fuelTank)
   {
-    sizeOfFuelTank = sOT;
+    sizeOfFuelTank = fuelTank;
   }
 ////////////////////////////////////////Setter method for setting the number of lights
-public void numberOfLights(int NOL)
+public void numberOfLights(int lights)
   {
-    numberOfLights = NOL;
+    numberOfLights = lights;
       }
 ////////////////////////////////////////Setter method for setting the number of Axels
-  public void NumberOfAxels(int NOA)
+  public void NumberOfAxels(int axels)
   {
-    NumberOfAxels = NOA;
+    NumberOfAxels = axels;
   }
- public void NumberOfwings(int NOW)
+ public void NumberOfwings(int NumberOfwings)
  {
-  NumberOfwings = NOW;
+  this.NumberOfwings = NumberOfwings;
 	}
 } // end declaration of class airVehicle
