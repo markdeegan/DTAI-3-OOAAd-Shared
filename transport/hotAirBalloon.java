@@ -28,7 +28,13 @@ public class hotAirBalloon extends airVehicle {
 		//Constructor with all variables from hotAirBalloon class & parent class airVehicle
 		public hotAirBalloon(int engines, int tires, int propellers, int weight, int seats, int fuelTank, int lights, int axels, int NumberOfwings, float volume, float basket, float balloon, int colours){
 			super(engines, tires, propellers, weight, seats, fuelTank, lights, axels, NumberOfwings);
-			this(volume, basket, balloon, colours);
+			// MD20231116 1513 it looks like we cannot use both super() and this() in the same constructor
+			// so I am removing the call to this() and copying the code from the appropriate constructor above
+			// this(volume, basket, balloon, colours);
+			balloonVolume = volume;
+		        basketWeight = basket;
+		        balloonWeight = balloon;
+		        totalBalloonColours = colours;
 		}
 
 		//Default Constructor
