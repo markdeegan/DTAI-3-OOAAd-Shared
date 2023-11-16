@@ -5,32 +5,32 @@
  */
 public class truck extends landVehicle {
 
-    // Private variable specific to the truck class
-    private int numberOfExhaustPipes; // Number of exhaust pipes
-    private float cargoCapacity; // Cargo capacity in cubic meters
-    private String fuelType; // Type of fuel the truck uses
+    //* Private variable specific to the truck class
+    private int numberOfExhaustPipes; //* Number of exhaust pipes
+    private float cargoCapacity; //* Cargo capacity in cubic meters
+    private String fuelType; //* Type of fuel the truck uses
 
-    // Full constructor for initializing all variables
+    //* Full constructor for initializing all variables
     public truck(int axles, int exhaustPipes, int seats, float cargoCapacity, String fuelType) {
-        super(axles, seats); // Assuming a constructor in landVehicle that accepts axles and seats
+        super(axles, seats); //* Assuming a constructor in landVehicle that accepts axles and seats
         numberOfExhaustPipes = exhaustPipes;
         this.cargoCapacity = cargoCapacity;
         this.fuelType = fuelType;
     }
 
-    // Constructor with some parameters 
+    //* Constructor with some parameters 
     public truck(int axles, int seats, String fuelType) {
         super(axles, seats); // Assuming a constructor in landVehicle that accepts axles and seats
         this.fuelType = fuelType;
     }
 
-    // Default constructor with no parameters
+    //* Default constructor with no parameters
     public truck() {
-        super(); // Assuming a default constructor in landVehicle
-        // Initialize default values or leave them as they are
+        super(); //* Assuming a default constructor in landVehicle
+        //* Initialize default values or leave them as they are
     }
 
-    // Getter methods for retrieving values
+    //* Getter methods for retrieving values
 
     public int getNumberOfExhaustPipes() {
         return numberOfExhaustPipes;
@@ -44,19 +44,19 @@ public class truck extends landVehicle {
         return fuelType;
     }
 
-    // Setter methods for modifying values
+    //* Setter methods for modifying values
 
-    // Setter for numberOfExhaustPipes
+    //* Setter for numberOfExhaustPipes
     public void setNumberOfExhaustPipes(int exhaustPipes) {
         numberOfExhaustPipes = exhaustPipes;
     }
 
-    // Setter for cargoCapacity
+    //* Setter for cargoCapacity
     public void setCargoCapacity(float capacity) {
         cargoCapacity = capacity;
     }
 
-    // Setter for fuelType
+    //* Setter for fuelType
     public void setFuelType(String type) {
         fuelType = type;
     }
