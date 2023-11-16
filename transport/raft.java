@@ -14,6 +14,13 @@ public class raft extends waterVehicle {
    private float Capacity; // Capacity
    private String fuelType; // Type of fuel the truck uses
 
-   public raft(int numberOfTubes, int numberOfSeams, int numberOfValves, int numberOfFloors, int numberOfThwarts, float Capacity, String fuelType)
+   public raft(int Tubes, int Seams, int Valves, int Floors, int Thwarts, float Capacity, String fuelType){
+      numberOfTubes = Tubes;
+      numberOfSeams = Seams;
+      numberOfValves = Valves;
+      numberOfFloors = floors;
+      numberOfThwarts = Thwarts;
+      this.Capacity = Capacity;
+      this.fuelType = fuelType; //here this.furlType refers to the data member of this class fuelType and fuelType without this. refers to the parameter fuelType.
    
 }

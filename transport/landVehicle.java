@@ -13,10 +13,20 @@ public class landVehicle extends vehicle
   private int amountOfTredds;
   private int numberOfExustes;
   private int numberOfWindows;
+  private int numberofAxles;
+  private int numberofHeadlights,
 // Setter method for setting the number of tyres
   public void setNumberOfTyres(int nOT)
   {
     numberOfTyres = nOT;
+     }
+    // Constructor with some parameters
+    public landVehicle(int axles, int headlights, int seats) {
+       numberOfHeadlights = headlights;
+       numberOfSeats = seats;
+       numberOfAxles = axles;
+       
+    }
   }
 // Setter method for setting the amount of cylinders in the engine
   public void setAmountOfCylinders(int AOC) 
