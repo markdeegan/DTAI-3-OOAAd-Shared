@@ -5,7 +5,7 @@
  * @author Armand Ediae
  * @version 20231115 1301
  */
-public class Truck extends LandVehicle {
+public class truck extends LandVehicle {
 
     // Private variables specific to the truck class
     private int numberOfExhaustPipes; // Number of exhaust pipes
@@ -21,7 +21,7 @@ public class Truck extends LandVehicle {
      * @param cargoCapacity Cargo capacity in cubic meters
      * @param fuelType Type of fuel the truck uses
      */
-    public Truck(int axles, int exhaustPipes, int seats, float cargoCapacity, String fuelType) {
+    public truck(int axles, int exhaustPipes, int seats, float cargoCapacity, String fuelType) {
         super(axles, seats);
         numberOfExhaustPipes = exhaustPipes;
         this.cargoCapacity = cargoCapacity;
@@ -35,7 +35,7 @@ public class Truck extends LandVehicle {
      * @param seats Number of seats
      * @param fuelType Type of fuel the truck uses
      */
-    public Truck(int axles, int seats, String fuelType) {
+    public truck(int axles, int seats, String fuelType) {
         super(axles, seats);
         this.fuelType = fuelType;
     }
@@ -43,7 +43,7 @@ public class Truck extends LandVehicle {
     /**
      * Default constructor with no parameters.
      */
-    public Truck() {
+    public truck() {
         super();
         // Initialize default values or leave them as they are
     }
