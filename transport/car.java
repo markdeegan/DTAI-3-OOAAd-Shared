@@ -73,7 +73,7 @@ public class Car extends LandVehicle {
         return color;
     }
 
-    // Setter methods...
+    // Setter methods
 
-    // ...
+    // 
 }
