@@ -55,7 +55,7 @@ public class car extends landVehicle {
     // Getter methods, inherited from landVehicle
 
     /**
-    @return engineSize Returns a float indicating enging capacity in cc
+    @return engineSize <br>Returns a float indicating enging capacity in cc
     */
     public float getEngineSize() {
         return engineSize;
