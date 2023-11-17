@@ -4,7 +4,7 @@
  * @author Armand Ediae
  * @version 20231511 1313
  */
-public class car extends LandVehicle {
+public class car extends landVehicle {
 
     private float engineSize;
     private String gearboxType;
