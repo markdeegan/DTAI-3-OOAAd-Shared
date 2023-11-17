@@ -1,9 +1,9 @@
- /**
- * This class represents a truck, extending the functionality of a land vehicle.
- *
- @author Armand Ediae
- @version 20231115 1301
- */
+/**
+* This class represents a truck, extending the functionality of a land vehicle.
+*
+@author Armand Ediae
+@version 20231115 1301
+*/
 public class truck extends landVehicle {
 
     // Private variables specific to the truck class
