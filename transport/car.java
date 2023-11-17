@@ -1,9 +1,10 @@
 /**
- * Armand Ediae
- * 20231511 1313
- * car class
+ * Represents a car, inheriting from the landVehicle class.
+ * 
+ * @author Armand Ediae
+ * @version 20231511 1313
  */
-public class car extends landVehicle {
+public class Car extends LandVehicle {
 
     private float engineSize;
     private String gearboxType;
@@ -11,27 +12,46 @@ public class car extends landVehicle {
     private boolean isConvertible;
     private String color;
 
-    //* Full constructor
-    public car(int headlights, int seats, float size, String gearbox, String fuel, boolean convertible, String carColor) {
-        super(headlights, seats); //* Assuming a constructor in landVehicle that accepts headlights and seats
-        engineSize = size;
-        gearboxType = gearbox;
-        fuelType = fuel;
-        isConvertible = convertible;
-        color = carColor;
+    /**
+     * Constructs a car with specified parameters.
+     * 
+     * @param headlights Number of headlights
+     * @param seats Number of seats
+     * @param engineSize Size of the car's engine
+     * @param gearboxType Type of gearbox (e.g., Automatic, Manual)
+     * @param fuelType Type of fuel the car uses
+     * @param isConvertible Indicates if the car is convertible
+     * @param color Color of the car
+     */
+    public Car(int headlights, int seats, float engineSize, String gearboxType, String fuelType, boolean isConvertible, String color) {
+        super(headlights, seats); // Assuming a constructor in landVehicle that accepts headlights and seats
+        this.engineSize = engineSize;
+        this.gearboxType = gearboxType;
+        this.fuelType = fuelType;
+        this.isConvertible = isConvertible;
+        this.color = color;
     }
 
-    //* Constructor with some parameters
-    public car(int headlights, int seats, float size, boolean convertible) {
-        this(headlights, seats, size, "Automatic", "Petrol", convertible, "White"); //* Default values for gearbox, fuel, and color
+    /**
+     * Constructs a car with specified parameters, using default values for gearbox, fuel, and color.
+     * 
+     * @param headlights Number of headlights
+     * @param seats Number of seats
+     * @param engineSize Size of the car's engine
+     * @param isConvertible Indicates if the car is convertible
+     */
+    public Car(int headlights, int seats, float engineSize, boolean isConvertible) {
+        this(headlights, seats, engineSize, "Automatic", "Petrol", isConvertible, "White");
     }
 
-    //* Default constructor with no parameters
-    public car() {
-        this(2, 4, 1.6f, "Automatic", "Petrol", false, "Red"); // Default values for all parameters
+    /**
+     * Default constructor for a car, using default values for all parameters.
+     */
+    public Car() {
+        this(2, 4, 1.6f, "Automatic", "Petrol", false, "Red");
     }
 
-    //* Getter methods, inherited from landVehicle
+    // Getter methods, inherited from landVehicle
 
     public float getEngineSize() {
         return engineSize;
@@ -53,25 +73,7 @@ public class car extends landVehicle {
         return color;
     }
 
-    //* Setter methods
+    // Setter methods...
 
-    public void setEngineSize(float engineSize) {
-        this.engineSize = engineSize;
-    }
-
-    public void setGearboxType(String gearboxType) {
-        this.gearboxType = gearboxType;
-    }
-
-    public void setFuelType(String fuelType) {
-        this.fuelType = fuelType;
-    }
-
-    public void setConvertible(boolean convertible) {
-        isConvertible = convertible;
-    }
-
-    public void setColor(String color) {
-        this.color = color;
-    }
+    // ...
 }
