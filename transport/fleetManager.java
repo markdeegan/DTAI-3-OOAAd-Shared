@@ -1,7 +1,16 @@
+/** Mark Deegan
+@author Mark Deegan
+@version 202311171036
+Application to test the creation and management of a fleet of vehicles
+*/
+
+/** class fleet manager will be used to create and manuipulate a number of opbjects all 
+extended from the super class vehicle */
 public class fleetManager 
-{
-  public static void main(java.lang.String[] args)
-	{
-	System.out.println("Hello. I am the fleet manager");
-	}
-}
+{ // start declaration of the fleetManager class
+	/** main method thjat will test the creation and management of some vehicles */
+	public static void main(java.lang.String[] args)
+	{ // begin declaration of the main method
+		System.out.println("Hello. I am the fleet manager");
+	} // end declaration of the main method
+} // end declaration of the fleetManager class
