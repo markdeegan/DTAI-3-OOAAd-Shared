@@ -1,6 +1,6 @@
 /**
 Application to test the creation and management of a fleet of vehicles<br>
-class fleet manager will be used to create and manuipulate a number of opbjects all extended from the super class vehicle <br>
+class fleet manager will be used to create and manuipulate a number of objects all extended from the super class vehicle <br>
 
 @author Mark Deegan
 @version 202311171036
