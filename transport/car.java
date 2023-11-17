@@ -1,8 +1,8 @@
 /**
  * Represents a car, inheriting from the landVehicle class.
  * 
- * @author Armand Ediae
- * @version 20231511 1313
+ @author Armand Ediae
+ @version 20231511 1313
  */
 public class car extends landVehicle {
 
