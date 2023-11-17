@@ -4,7 +4,7 @@
  * @author Armand Ediae
  * @version 20231511 1313
  */
-public class Car extends LandVehicle {
+public class car extends LandVehicle {
 
     private float engineSize;
     private String gearboxType;
@@ -23,7 +23,7 @@ public class Car extends LandVehicle {
      * @param isConvertible Indicates if the car is convertible
      * @param color Color of the car
      */
-    public Car(int headlights, int seats, float engineSize, String gearboxType, String fuelType, boolean isConvertible, String color) {
+    public car(int headlights, int seats, float engineSize, String gearboxType, String fuelType, boolean isConvertible, String color) {
         super(headlights, seats); // Assuming a constructor in landVehicle that accepts headlights and seats
         this.engineSize = engineSize;
         this.gearboxType = gearboxType;
@@ -40,14 +40,14 @@ public class Car extends LandVehicle {
      * @param engineSize Size of the car's engine
      * @param isConvertible Indicates if the car is convertible
      */
-    public Car(int headlights, int seats, float engineSize, boolean isConvertible) {
+    public car(int headlights, int seats, float engineSize, boolean isConvertible) {
         this(headlights, seats, engineSize, "Automatic", "Petrol", isConvertible, "White");
     }
 
     /**
      * Default constructor for a car, using default values for all parameters.
      */
-    public Car() {
+    public car() {
         this(2, 4, 1.6f, "Automatic", "Petrol", false, "Red");
     }
 
