@@ -5,7 +5,7 @@
  * @author Armand Ediae
  * @version 20231115 1301
  */
-public class truck extends LandVehicle {
+public class truck extends landVehicle {
 
     // Private variables specific to the truck class
     private int numberOfExhaustPipes; // Number of exhaust pipes
