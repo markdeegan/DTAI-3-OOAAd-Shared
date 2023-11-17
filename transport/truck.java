@@ -48,7 +48,7 @@ public class Truck extends LandVehicle {
         // Initialize default values or leave them as they are
     }
 
-    // Getter methods for retrieving values...
+    // Getter methods for retrieving values
 
-    // Setter methods for modifying values...
+    // Setter methods for modifying values
 }
