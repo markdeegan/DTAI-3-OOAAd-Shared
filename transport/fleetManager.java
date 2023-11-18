@@ -12,5 +12,15 @@ public class fleetManager
 	public static void main(java.lang.String[] args)
 	{ // begin declaration of the main method
 		System.out.println("Hello. I am the fleet manager");
+
+		car myCar 		= new car();		// create an anonymous car (no parameters)
+		truck myTruck 		= new truck();		// create an anonymous truck (no parameters)
+		motorbike myMotorbike 	= new motorbike();	// create an anonymous motorbike (no parameters)
+		plane myPlane		= new plane(200, 16, "Aer Lingus"); // create a plane with 200 economy and 16 first-class seats
+		hotAirBalloon myHAB	= new hotAirBalloon();	// create an anonymous hotAirBalloon (no parameters)
+		helicopter myHelicopter	= new helicopter();	// create an anonymous helicopter (no parameters)
+		
+
+
 	} // end declaration of the main method
 } // end declaration of the fleetManager class
