@@ -4,6 +4,8 @@
  @author Armand Ediae
  @version 20231511 1313
  @see truck
+ @see landVehicle
+ @see vehicle
  */
 public class car extends landVehicle {
 

@@ -3,7 +3,9 @@
 *
 @author Armand Ediae
 @version 20231115 1301
-@see vehicle landVehicle car
+@see car
+@see landVehicle
+@see vehicle
 */
 public class truck extends landVehicle {
 
