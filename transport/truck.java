@@ -6,6 +6,7 @@
 @see car
 @see landVehicle
 @see vehicle
+@since 1
 */
 public class truck extends landVehicle {
 
