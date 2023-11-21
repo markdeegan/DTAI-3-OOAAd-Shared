@@ -1,7 +1,7 @@
 /**
  * Represents a car, inheriting from the landVehicle class.
  * 
- @author Armand Ediae
+ @author Armand Ediae B00147794@mytudublin.ie
  @version 20231511 1313
  @see truck
  @see landVehicle
