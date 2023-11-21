@@ -1,14 +1,20 @@
-//Mansur Niniola
-//202315111033
+//
+//
 //plane class
+/**
+@author Mansur Niniola B00@mytudublin.ie
+@version 202315111033
+@see ship
+@see airVehicle
+@see vehicle
+*/
 
-
-//declare the public class plane extends from the class airvehicle
+/** declare the public class plane extends from the class airvehicle */
 public class plane extends airVehicle {
 
   //begin declaration of private instance variables for plane class
   private int seat_number;
-  private int firstClassSeats; // Number of first-class seats
+  private int firstClassSeats; /** Number of first-class seats */
   private int economyClassSeats; // Number of economy-class seats
   private float maxAltitude; // Maximum flying altitude
   private float range; // Maximum range the plane can travel
@@ -16,16 +22,17 @@ public class plane extends airVehicle {
   private float cargoCapacity; // Maximum cargo capacity
   private String airline; // Associated airline
 
-  // basic constructor to set the most essential attributes of a plane
-  // MD20231116-1011 Fixed the naming of this constructor.
-
-   public plane(int seat_number, float maxAltitude, String airline) {
+/** basic constructor to set the most essential attributes of a plane
+<br> 
+MD20231116-1011 Fixed the naming of this constructor. */
+public plane(int seat_number, float maxAltitude, String airline) {
     this.seat_number = seat_number;
     this.maxAltitude = maxAltitude;
     this.airline = airline;
 }
-  // constructor with class specific seats
-  // for setting up planes with specific numbers of first-class and economy-class seats.
+  /** for setting up planes with specific numbers 
+  <br>
+  of first-class and economy-class seats. */
   public plane(int firstClassSeats, int economyClassSeats, String airline) {
       this.firstClassSeats = firstClassSeats;
       this.economyClassSeats = economyClassSeats;
