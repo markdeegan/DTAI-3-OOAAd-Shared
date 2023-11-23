@@ -1,4 +1,7 @@
-/** Shane Dixon, 15/11/2002, 12:44, Vehicle Project */
+/** @author B00147516@mytudublin.ie, Shane Dixon, TU Dublin Blanchardstown
+    Last Updated: 23/11/2023, 12:12, Vehicle Project 
+    @see Object
+    */
 public class vehicle
   {
     private int Standsformachinecapableoftransportingpeople;
