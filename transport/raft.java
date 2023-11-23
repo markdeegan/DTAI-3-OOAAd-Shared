@@ -2,6 +2,9 @@
  * Shalom Olorunfemi
  * 20231411
  * raft class
+ @see Vehicle
+ @see Watervehicle
+ @see Raft
  */
 public class raft extends waterVehicle {
    
