@@ -4,7 +4,7 @@
  * 20231411
  * raft class
  @see vehicle
- @see watervehicle
+ @see waterVehicle
  @see raft
  @see jetski
  */
