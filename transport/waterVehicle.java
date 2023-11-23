@@ -1,9 +1,9 @@
-////////////////////////////////////////
-/** 
-  Shane Dixon, 
-  9/11/2002, 12:45, 
-  Vehicle Project */
-////////////////////////////////////////
+/** @author B00147516@mytudublin.ie, Shane Dixon, TU Dublin Blanchardstown
+    Last Updated: 23/11/2023, 12:12, Vehicle Project 
+    @see vehicle
+    @see object
+    */
+
 
 public class waterVehicle extends vehicle
   { 
