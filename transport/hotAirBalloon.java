@@ -1,5 +1,10 @@
-/** Eoin Finnerty <br>
-Wednesday 20231115 1034 <br>
+/**
+@author Eoin Finnerty B00143526@mytudublin.ie
+@version Thursday 20231123 1207
+@see helicopter
+@see plane
+@see airVehicle
+@see Vehicle
 This is to create class hotAirBalloon which extends class airVehicle
 */
 
