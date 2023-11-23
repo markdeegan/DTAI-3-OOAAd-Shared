@@ -4,7 +4,7 @@
 @see helicopter
 @see plane
 @see airVehicle
-@see Vehicle
+@see vehicle
 This is to create class hotAirBalloon which extends class airVehicle
 */
 
