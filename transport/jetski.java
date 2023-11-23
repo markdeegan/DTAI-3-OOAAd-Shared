@@ -2,6 +2,9 @@
  * Shalom Olorunfemi
  * 20231411
  * jetski class
+ @see Vehicle
+ @see WaterVehicle
+ @see Jetski
  */
 public class jetski extends waterVehicle {
    
