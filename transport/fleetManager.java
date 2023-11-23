@@ -2,7 +2,7 @@
 Application to test the creation and management of a fleet of vehicles<br>
 class fleet manager will be used to create and manuipulate a number of objects all extended from the super class vehicle <br>
 
-@author Mark Deegan <a href="mailto:mark.deegan@tudublin.ie">
+@author Mark Deegan <a href="mailto:mark.deegan@tudublin.ie">Send Mail</a>
 @version 202311171036
 @see vehicle
 */
