@@ -1,11 +1,12 @@
    /**
- * Shalom Olorunfemi
+ * 
+ @author Shalom Olorunfemi B00144810@mytudublin.ie
  * 20231411
  * raft class
- @see Vehicle
- @see Watervehicle
- @see Raft
- @see Jetski
+ @see vehicle
+ @see watervehicle
+ @see raft
+ @see jetski
  */
 public class raft extends waterVehicle {
    
