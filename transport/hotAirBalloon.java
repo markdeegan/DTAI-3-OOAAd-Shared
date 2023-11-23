@@ -15,7 +15,7 @@ public class hotAirBalloon extends airVehicle {
 	    private float balloonVolume = 2500; //Define the maximum volume of the balloon
 	    private float basketWeight = 64; //Define the weight of the basket
 	    private float balloonWeight = 110; //Define the weight of the balloon
-	    private int totalBalloonColours = 2; //Total number of colours on the balloon
+	    private int totalBalloonColours = 1; //Total number of colours on the balloon
 	    private String balloonColours = ""; //List colour(s) of the balloon
 
 		//Constructor with all variables from parent class airVehicle
@@ -23,7 +23,13 @@ public class hotAirBalloon extends airVehicle {
 			super(engines, tires, propellers, weight, seats, fuelTank, lights, axels, NumberOfwings);
 		}
 
-	    //Constructor with all variables from hotAirBalloon class
+	    /**Constructor with all variables from hotAirBalloon class
+		@param volume The volume in cubic metres of the balloon
+		@param basket The weight of the basket in kg
+		@param balloon The weight of the balloon in kg
+		@param totalColours The total number of colours on the balloon
+		@param balloonColours List of the colour(s) on the balloon
+		*/
 	    public hotAirBalloon(float volume, float basket, float balloon, int totalColours, String colours) {
 		        balloonVolume = volume;
 		        basketWeight = basket;
