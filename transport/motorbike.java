@@ -2,7 +2,6 @@
     Last Updated: 23/11/2023, 12:44, Vehicle Project 
     @see landVehicle
     @see vehicle
-    @see object
     */
 
 public class motorbike extends landVehicle
