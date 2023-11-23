@@ -6,13 +6,13 @@ This is to create class helicopter which extends class airVehicle
 //Declare the public class helicopter, extending air vehicle class
 public class helicopter extends airVehicle {
 
-	 	//Variables
-	    private int numberOfRotarySystems; //Total number of rotary systems needed to achieve flight
-	    private int numberOfMainSystems; //Total number of main rotary systems
-	    private int numberOfRearSystems; //Total number of rear rotary systems
-	    private int numberOfBlades; //Total number of blades used by the helicopter
-	    private float mainBladeLength; //Length of blades on main rotary system(s)
-	    private float rearBladeLength; //Length of blades on rear rotary system(s)
+	 	//Variables and their default values
+	    private int numberOfRotarySystems = numberOfMainSystems + numberOfRearSystems; //Total number of rotary systems needed to achieve flight
+	    private int numberOfMainSystems = 1; //Total number of main rotary systems
+	    private int numberOfRearSystems = 1; //Total number of rear rotary systems
+	    private int numberOfBlades = 8; //Total number of blades used by the helicopter
+	    private float mainBladeLength = 7.8; //Length of blades on main rotary system(s)
+	    private float rearBladeLength = 1.2; //Length of blades on rear rotary system(s)
 
 	    //Constructor with all variables from parent class airVehicle
 		public helicopter(int engines, int tires, int propellers, int weight, int seats, int fuelTank, int lights, int axels, int NumberOfwings){
@@ -32,7 +32,7 @@ public class helicopter extends airVehicle {
 		//Constructor with all variables from helicopter class & parent class airVehicle
 		public helicopter(int engines, int tires, int propellers, int weight, int seats, int fuelTank, int lights, int axels, int NumberOfwings, int rotary, int mains, int rears, int blades, float mainLength, float rearLength){
 			// Switching order of this() and super() I am not sure if we can call both within a constructor
-		 	
+
 			super(engines, tires, propellers, weight, seats, fuelTank, lights, axels, NumberOfwings);
 			// MD20231116 1513 it looks like we cannot use both super() and this() in the same constructor
 			// so I am removing the call to this() and copying the code from the appropriate constructor above
