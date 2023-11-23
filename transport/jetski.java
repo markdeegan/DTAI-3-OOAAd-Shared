@@ -5,6 +5,7 @@
  @see Vehicle
  @see WaterVehicle
  @see Jetski
+ @see Raft
  */
 public class jetski extends waterVehicle {
    
