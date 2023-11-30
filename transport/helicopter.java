@@ -21,8 +21,9 @@ public class helicopter extends airVehicle {
 	    private float cost = 5000000.0 //Monetary value of the helicopter
 
 	    //Constructor with all variables from parent class airVehicle
-		public helicopter(int engines, int tires, int propellers, int weight, int seats, int fuelTank, int lights, int axels, int NumberOfwings){
+		public helicopter(int engines, int tires, int propellers, int weight, int seats, int fuelTank, int lights, int axels, int NumberOfwings, float initialValue){
 			super(engines, tires, propellers, weight, seats, fuelTank, lights, axels, NumberOfwings);
+		value = initialValue;
 		}
 
 		/**Constructor with all variables from helicopter class
