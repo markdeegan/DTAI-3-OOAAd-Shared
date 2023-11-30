@@ -12,9 +12,9 @@ This is to create class helicopter which extends class airVehicle
 public class helicopter extends airVehicle {
 
 	 	//Variables and their default values
-	    private int numberOfRotarySystems = numberOfMainSystems + numberOfRearSystems; //Total number of rotary systems needed to achieve flight
 	    private int numberOfMainSystems = 1; //Total number of main rotary systems
 	    private int numberOfRearSystems = 1; //Total number of rear rotary systems
+	    private int numberOfRotarySystems = numberOfMainSystems + numberOfRearSystems; //Total number of rotary systems needed to achieve flight
 	    private int numberOfBlades = 8; //Total number of blades used by the helicopter
 	    private float mainBladeLength = 7.8; //Length of blades on main rotary system(s)
 	    private float rearBladeLength = 1.2; //Length of blades on rear rotary system(s)
