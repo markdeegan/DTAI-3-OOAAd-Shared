@@ -1,56 +1,37 @@
 /** paddy kelly 9.11.2023.11:44 vehicle*/
 // Description: This class represents a land vehicle and extends the vehicle class.
 
-public class landVehicle extends vehicle {
+public class LandVehicle extends Vehicle {
 
+    private int seats;
     private float engineSize;
     private String gearboxType;
     private String fuelType;
     private boolean isConvertible;
     private String color;
+    private int headlights;
 
-    // Constants for default values
-    private static final int DEFAULT_HEADLIGHTS = 2;
-    private static final int DEFAULT_SEATS = 4;
-    private static final float DEFAULT_ENGINE_SIZE = 1.6f;
-    private static final String DEFAULT_GEARBOX_TYPE = "Automatic";
-    private static final String DEFAULT_FUEL_TYPE = "Petrol";
-    private static final boolean DEFAULT_IS_CONVERTIBLE = false;
-    private static final String DEFAULT_COLOR = "Red";
-
-    public landVehicle()
-    // MD default constructor that does nothing
-    {
+    // Constructor with parameters
+    public LandVehicle(int seats, float engineSize, String gearboxType, String fuelType, boolean isConvertible, String color, int headlights) {
+        super(seats, headlights);
+        this.seats = seats;
+        this.engineSize = engineSize;
+        this.gearboxType = gearboxType;
+        this.fuelType = fuelType;
+        this.isConvertible = isConvertible;
+        this.color = color;
+        this.headlights = headlights;
     }
-    
-    public landVehicle(int x, int y) 
-    // MD does absolutely nothing, ignores the two integers, 
-    // for a start number of headlights does not exist
-    // abnd also, number of seats does not exist in class landVehicle
-    {
-    }
-    
-    // Full constructor
-    /* public car(int headlights, int seats, float size, String gearbox, String fuel, boolean convertible, String carColor) {
-        super(headlights, seats);
-        engineSize = size;
-        gearboxType = gearbox;
-        fuelType = fuel;
-        isConvertible = convertible;
-        color = carColor;
-    }*/
-
-    // Constructor with some parameters
-    /* public Car(int headlights, int seats, float size, boolean convertible) {
-        this(headlights, seats, size, DEFAULT_GEARBOX_TYPE, DEFAULT_FUEL_TYPE, convertible, DEFAULT_COLOR);
-    } */
 
     // Default constructor with no parameters
-    /* public Car() {
-        this(DEFAULT_HEADLIGHTS, DEFAULT_SEATS, DEFAULT_ENGINE_SIZE, DEFAULT_GEARBOX_TYPE, DEFAULT_FUEL_TYPE, DEFAULT_IS_CONVERTIBLE, DEFAULT_COLOR);
-    } */
+    public LandVehicle() {
+        // Default constructor with no parameters
+    }
 
-    // Getter methods, inherited from LandVehicle
+    // Getter methods
+    public int getSeats() {
+        return seats;
+    }
 
     public float getEngineSize() {
         return engineSize;
@@ -72,7 +53,14 @@ public class landVehicle extends vehicle {
         return color;
     }
 
+    public int getHeadlights() {
+        return headlights;
+    }
+
     // Setter methods
+    public void setSeats(int seats) {
+        this.seats = seats;
+    }
 
     public void setEngineSize(float engineSize) {
         this.engineSize = engineSize;
@@ -92,5 +80,9 @@ public class landVehicle extends vehicle {
 
     public void setColor(String color) {
         this.color = color;
+    }
+
+    public void setHeadlights(int headlights) {
+        this.headlights = headlights;
     }
 }
