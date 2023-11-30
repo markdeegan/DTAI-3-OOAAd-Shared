@@ -11,10 +11,6 @@
  */
 public class car extends landVehicle implements subjectToNCT {
 
-    private float engineSize;
-    private String gearboxType;
-    private boolean isConvertible;
-    private String color;
 
     /**
       Constructs a car with specified parameters.
@@ -28,21 +24,11 @@ public class car extends landVehicle implements subjectToNCT {
       @param color Color of the car
      */
     public car(int headlights, int seats, float engineSize, String gearboxType, String fuelType, boolean isConvertible, String color) {
-        super(headlights, seats, fuelType); // Assuming a constructor in landVehicle that accepts headlights and seats
-        this.engineSize = engineSize;
-        this.gearboxType = gearboxType;
-        this.isConvertible = isConvertible;
-        this.color = color;
+        super(headlights, seats, fuelType, engineSize,gearboxType, color, isConvertible); // Assuming a constructor in landVehicle that accepts headlights and seats
+        
     }
 
-    /**
-      Constructs a car with specified parameters, using default values for gearbox, fuel, and color.
-      
-      @param headlights Number of headlights
-      @param seats Number of seats
-      @param engineSize Size of the car's engine
-      @param isConvertible Indicates if the car is convertible
-     */
+  
     public car(int headlights, int seats, float engineSize, boolean isConvertible) {
         this(headlights, seats, engineSize, "Automatic", "Petrol", isConvertible, "White");
     }
