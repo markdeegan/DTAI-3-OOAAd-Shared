@@ -9,7 +9,7 @@
  @see motorbike
  @since 1
  */
-public class car extends landVehicle {
+public class car extends landVehicle implements asset, subjectToNCT {
 
     private float engineSize;
     private String gearboxType;
