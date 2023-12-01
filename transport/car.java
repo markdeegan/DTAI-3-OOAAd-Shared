@@ -24,7 +24,8 @@ public class car extends landVehicle implements subjectToNCT {
       @param color Color of the car
      */
     public car(int headlights, int seats, float engineSize, String gearboxType, String fuelType, boolean isConvertible, String color) {
-        //super(headlights, seats, fuelType, engineSize,gearboxType, color, isConvertible); // Assuming a constructor in landVehicle that accepts headlights and seats
+        // MD20231201 - MArk Deegan comented this out. See comments in commit history.
+	// super(headlights, seats, fuelType, engineSize,gearboxType, color, isConvertible); // Assuming a constructor in landVehicle that accepts headlights and seats
  
     }
 
