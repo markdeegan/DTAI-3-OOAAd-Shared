@@ -26,6 +26,12 @@ public class truck extends landVehicle {
       @param fuelType Type of fuel the truck uses
      */
     public truck(int axles, int exhaustPipes, int seats, float cargoCapacity, String fuelType) {
+        // MD20231201 - this wwil casue a problem, as it is written.
+        // this assumes a constructo for the super class (landVehicl) that takes int, int, String.
+        // no such constructor exists in class landVehicle, so we can's use that.
+        // the closest that exists is
+        // public landVehicle(int seats, float engineSize, String gearboxType, String fuelType, boolean isConvertible, String color, int headlights) {
+        // so, we will comment out the call to super, and consider using the setter methods, if they exist, in the base class landVehicle
         super(axles, seats, fuelType);
         numberOfExhaustPipes = exhaustPipes;
         this.cargoCapacity = cargoCapacity;
