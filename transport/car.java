@@ -47,7 +47,9 @@ public class car extends landVehicle implements subjectToNCT {
     @return engineSize <br>Returns a float indicating enging capacity in cc
     */
     public float getEngineSize() {
-        return engineSize;
+        // MD20231201 - changed this to reflect visibility of the engineSize data member in class landVehicle
+	// return engineSize;
+	return super.getEngineSize();
     }
 
     public String getGearboxType() {
