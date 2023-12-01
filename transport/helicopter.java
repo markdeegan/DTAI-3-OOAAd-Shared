@@ -16,9 +16,12 @@ public class helicopter extends airVehicle {
 	    private int numberOfRearSystems = 1; //Total number of rear rotary systems
 	    private int numberOfRotarySystems = numberOfMainSystems + numberOfRearSystems; //Total number of rotary systems needed to achieve flight
 	    private int numberOfBlades = 8; //Total number of blades used by the helicopter
-	    private float mainBladeLength = 7.8; //Length of blades on main rotary system(s)
-	    private float rearBladeLength = 1.2; //Length of blades on rear rotary system(s)
-	    private float cost = 5000000.0; //Monetary value of the helicopter
+		// MD20231201, adding the f qualifier after the value 7.8, to be explicit we mean a float and not a double
+	    private float mainBladeLength = 7.8f; //Length of blades on main rotary system(s)
+		// MD20231201, adding the f qualifier after the value 1.2, to be explicit we mean a float and not a double
+	    private float rearBladeLength = 1.2f; //Length of blades on rear rotary system(s)
+		// MD20231201, adding the f qualifier after the value 5000000.0, to be explicit we mean a float and not a double
+	    private float cost = 5000000.0f; //Monetary value of the helicopter
 
 	    //Constructor with all variables from parent class airVehicle
 		public helicopter(int engines, int tires, int propellers, int weight, int seats, int fuelTank, int lights, int axels, int NumberOfwings, float initialValue){
