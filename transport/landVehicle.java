@@ -13,7 +13,7 @@ public class landVehicle extends vehicle {
 
     // Constructor with parameters
     public landVehicle(int seats, float engineSize, String gearboxType, String fuelType, boolean isConvertible, String color, int headlights) {
-        super(seats, headlights);
+        // super(seats, headlights);
         this.seats = seats;
         this.engineSize = engineSize;
         this.gearboxType = gearboxType;
