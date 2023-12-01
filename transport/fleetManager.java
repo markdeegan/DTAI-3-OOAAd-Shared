@@ -59,9 +59,16 @@ public class fleetManager
 		System.out.flush();  
 	}
 
+<<<<<<< HEAD
 	/** waitASecond method to wait a fixed number of seconds
 	default value, 1 second, otherwise seconds*1000 milliseconds */
 	public static void waitASecond(int seconds)
+=======
+	/** method to wait a whilem, using the Thread.sleep() method<br>
+ 	Because that method can throw exceptions, we need to wrap the call to Thread.sleep() in a <br>
+  	try/catch block as below.*/
+	public static void waitASecond()
+>>>>>>> cea40c3c301da901e7b5deaa3596b2f0df2c5bcf
 	{ // start waitASecond method
 		try 
 		{ // start try block
