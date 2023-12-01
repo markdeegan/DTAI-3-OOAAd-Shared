@@ -81,4 +81,15 @@ public class car extends landVehicle implements subjectToNCT {
 	{
 		return 0.0f;
 	}
+
+	public String toString()
+	/** Overriding the toString method<br>
+	There is a default version of this in the class java.lang.Object <br>
+	which prints out the classname and the memory location of the object.<br>
+	but, we would like it to do a little more.<br>*/
+	{
+		String tempString;
+		tempString.append("Instance of class car\n");
+		tempString.append(super.toString());
+	}
 }
