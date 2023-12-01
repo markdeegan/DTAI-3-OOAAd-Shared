@@ -53,15 +53,15 @@ public class car extends landVehicle implements subjectToNCT {
     }
 
     public String getGearboxType() {
-        return gearboxType;
+        return super.getGearboxType();
     }
 
     public String getFuelType() {
-        return fuelType;
+        return super.getFuelType();
     }
 
     public boolean isConvertible() {
-        return isConvertible;
+        return super.getIsConvertible();
     }
 
     public String getColor() {
