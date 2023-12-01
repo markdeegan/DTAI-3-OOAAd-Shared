@@ -63,6 +63,9 @@ public class fleetManager
 		System.out.flush();  
 	}
 
+	/** method to wait a whilem, using the Thread.sleep() method<br>
+ 	Because that method can throw exceptions, we need to wrap the call to Thread.sleep() in a <br>
+  	try/catch block as below.*/
 	public static void waitASecond()
 	{ // start waitASecond method
 		try 
