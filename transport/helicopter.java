@@ -18,7 +18,7 @@ public class helicopter extends airVehicle {
 	    private int numberOfBlades = 8; //Total number of blades used by the helicopter
 	    private float mainBladeLength = 7.8; //Length of blades on main rotary system(s)
 	    private float rearBladeLength = 1.2; //Length of blades on rear rotary system(s)
-	    private float cost = 5000000.0 //Monetary value of the helicopter
+	    private float cost = 5000000.0; //Monetary value of the helicopter
 
 	    //Constructor with all variables from parent class airVehicle
 		public helicopter(int engines, int tires, int propellers, int weight, int seats, int fuelTank, int lights, int axels, int NumberOfwings, float initialValue){
