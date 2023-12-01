@@ -56,8 +56,7 @@ public class car extends landVehicle implements subjectToNCT {
         return super.getGearboxType();
     }
 
-    public String getFuelType() {
-        return super.getFuelType();
+    public String getFuelType() { return super.getFuelType();
     }
 
     public boolean isConvertible() {
@@ -88,8 +87,8 @@ public class car extends landVehicle implements subjectToNCT {
 	which prints out the classname and the memory location of the object.<br>
 	but, we would like it to do a little more.<br>*/
 	{
-		String tempString;
-		tempString.append("Instance of class car\n");
-		tempString.append(super.toString());
+		String tempString = "Instance of class car: ";
+		tempString=tempString+super.toString();
+		return tempString;
 	}
 }
