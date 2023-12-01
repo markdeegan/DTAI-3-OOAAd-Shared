@@ -65,7 +65,9 @@ public class car extends landVehicle implements subjectToNCT {
     }
 
     public String getColor() {
-        return color;
+        // MD20231201 - again, visibility of color in class landVehcile is provate,
+	    // so we need to use the super.getColor method from class landVehich , not return color;
+	    return super.getColor();
     }
 
     // Setter methods
