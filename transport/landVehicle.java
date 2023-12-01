@@ -45,7 +45,9 @@ public class landVehicle extends vehicle {
         return fuelType;
     }
 
-    public boolean isConvertible() {
+    public boolean getIsConvertible() {
+        // MD20231201 renamed this method from isConvertible (which is the same as the name of the variable, to getIsConvertible()
+        // that makes sense anyway, as this is a getter method, and our convention is to name all getter methods so they start with get.
         return isConvertible;
     }
 
