@@ -32,7 +32,7 @@ public class truck extends landVehicle {
         // the closest that exists is
         // public landVehicle(int seats, float engineSize, String gearboxType, String fuelType, boolean isConvertible, String color, int headlights) {
         // so, we will comment out the call to super, and consider using the setter methods, if they exist, in the base class landVehicle
-        super(axles, seats, fuelType);
+        // super(axles, seats, fuelType);
         numberOfExhaustPipes = exhaustPipes;
         this.cargoCapacity = cargoCapacity;
         
