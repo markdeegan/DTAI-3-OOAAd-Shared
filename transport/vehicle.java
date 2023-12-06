@@ -2,7 +2,7 @@
     Last Updated: 23/11/2023, 12:12, Vehicle Project 
     @see Object
     */
-public class vehicle implements asset
+public abstract class vehicle implements asset
   {
     private int Standsformachinecapableoftransportingpeople;
     private int Passengerspacevariesdependingonvehicle;

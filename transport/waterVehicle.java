@@ -4,7 +4,7 @@
     */
 
 
-public class waterVehicle extends vehicle
+public abstract class waterVehicle extends vehicle
   { 
     private int Vehiclemadetobeusedinoceanoronwater;
     private int Usedforcruising,longtermcommuting,etc;

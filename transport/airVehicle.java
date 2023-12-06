@@ -4,7 +4,7 @@ Paddy Kelly
 class vehicle
 */
 // Declare the public class airVehicle, extending the vehicle class
-public class airVehicle extends vehicle
+public abstract class airVehicle extends vehicle
 {
   // begin declaration of private instance variables for airVehicle class
   private int numberOfEngens;
