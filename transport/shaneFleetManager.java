@@ -2,8 +2,8 @@
 Application to test the creation and management of a fleet of vehicles<br>
 class fleet manager will be used to create and manuipulate a number of objects all extended from the super class vehicle <br>
 
-@author 
-@version 
+@author Shane Dixon
+@version 1.0
 @see vehicle
 */
 public class shaneFleetManager 
