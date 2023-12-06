@@ -2,12 +2,12 @@
 Application to test the creation and management of a fleet of vehicles<br>
 class fleet manager will be used to create and manuipulate a number of objects all extended from the super class vehicle <br>
 
-@author Mark Deegan <a href="mailto:mark.deegan@tudublin.ie">Send Mail</a>
-@version 202311171036
+@author 
+@version 
 @see vehicle
 */
-public class fleetManager 
-{ // start declaration of the fleetManager class
+public class shaneFleetManager 
+{ // start declaration of the shaneFleetManager class
 	/** main method thjat will test the creation and management of some vehicles */
 	public static void main(java.lang.String[] args)
 	{ // begin declaration of the main method
