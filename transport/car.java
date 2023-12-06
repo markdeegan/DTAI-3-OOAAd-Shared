@@ -88,6 +88,8 @@ public class car extends landVehicle implements subjectToNCT {
 	but, we would like it to do a little more.<br>*/
 	{
 		String tempString = "Instance of class car: ";
+		tempString = tempString + "Color: "+ getColor();
+		tempString = tempString + " Headlights: "+ getHeadlights() + " - ";
 		tempString=tempString+super.toString();
 		return tempString;
 	}
