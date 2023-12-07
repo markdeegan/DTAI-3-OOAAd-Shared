@@ -28,5 +28,15 @@ public class raft extends waterVehicle {
       this.Capacity = Capacity;
       this.fuelType = fuelType; //here this.furlType refers to the data member of this class fuelType and fuelType without this. refers to the parameter fuelType.
    }
+   public String toString() {
+    String tempString = "Raft Details:\n";
+      tempString += "numberOfTubes: " + getnumberOfTubes() + "\n";
+      tempString +- "numberOfSeams: " +getnumberOfSeams() + "\n";
+      tempString +- "numberOfValves: " + getnumberOfValves() + \n";
+      tempString +- "numberOfFloors: " + getnumberOfFloors() + \n";
+      tempString +- "numberOfThwarts: " + getnumberOfThwarts() + \n";
+
+      return tempString;
+   }    
 } // again, missing closing brace on either constructor or on class declaration
 // again this aould be avoided by ensuring that all openeing braces { and all closing braces } are commented
