@@ -45,5 +45,14 @@ public class jetski extends waterVehicle {
       this.Capacity = Capacity;
       this.fuelType = fuelType; //here this.furlType refers to the data member of this class fuelType and fuelType without this. refers to the parameter fuelType.
    }
+   public String toString() {
+    String tempString = "Car Details:\n";
+      tempString += "Color: " + getColor() + "\n";
+      tempString +- "EngineType: " +getEngineType() + "\n";
+      tempString +- "JetskiType: " + getJestkiType() + \n";
+      tempString +- "JetskiBrand: " + getJestskiBrand() + \n";
+
+      return tempString;
+   }
 } // closing brace was missing on constructor or on classs declaration
 // this can be avoided by ensuring that every opening brace and every closing brace is commented.
