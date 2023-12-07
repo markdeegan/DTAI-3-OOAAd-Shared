@@ -57,4 +57,8 @@ public class hotAirBalloon extends airVehicle {
 		}
 
 
+
+    return tempString;
+    } // ends toString method
+
 }
