@@ -83,7 +83,5 @@ public String toString() {
     tempString += "Superclass Details: " + super.toString();
 
     return tempString;
-}
-
-    }
-}
+    } // ends toString method
+}     // ends car class declaration
