@@ -46,7 +46,7 @@ public class jetski extends waterVehicle {
       this.fuelType = fuelType; //here this.furlType refers to the data member of this class fuelType and fuelType without this. refers to the parameter fuelType.
    }
    public String toString() {
-    String tempString = "Car Details:\n";
+    String tempString = "Jetski Details:\n";
       tempString += "numberOfTopDeck: " + getnumberOfTopDeck() + "\n";
       tempString +- "numberOfHulls: " +getnumberOfHulls() + "\n";
       tempString +- "numberOfEngines: " + getnumberOfEngines() + \n";
