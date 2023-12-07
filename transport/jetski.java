@@ -57,7 +57,6 @@ public class jetski extends waterVehicle {
       tempString +- "numberOfHandleBars: " + getnumberOfHandleBars() + \n";
       tempString +- "numberOfCleats: " + getnumberOfCleats() + \n";
       tempString +- "numberOfReboardingSteps;: " + getnumberOfReboardingSteps() + \n";
-      
 
       return tempString;
    }
