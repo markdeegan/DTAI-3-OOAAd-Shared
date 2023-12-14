@@ -27,7 +27,7 @@ public class shalomFleetManager
 		waitASecond(2);
 
 
-		truck myTruck 		= new truck();		// create an anonymous truck (no parameters)
+		// truck myTruck 		= new truck();		// create an anonymous truck (no parameters)
 		motorbike myMotorbike 	= new motorbike();	// create an anonymous motorbike (no parameters)
 		car myCar 		= new car();		// create an anonymous car (no parameters)
 		plane myPlane		= new plane(200, 16, "Aer Lingus"); // create a plane with 200 economy and 16 first-class seats
