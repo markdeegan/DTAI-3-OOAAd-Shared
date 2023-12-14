@@ -92,12 +92,12 @@ public class helicopter extends airVehicle {
 		}
 
 public String toString() {
-    String tempString = "Helicopter Details:\n";
-    tempString += "Number of rotary systems: " + getSystems() + "\n";
-    tempString += "Number of main rotary systems: " + getMain() + "\n";
-    tempString += "Number of rear rotary systems: " + getRear() + "\n";
-    tempString += "Number of blades: " + getBlades() + "\n";
-    tempString += "Lenght of main blades: " + getMainLenght() + "\n";
+    String tempString = "Helicopter Details:";
+    tempString += "Number of rotary systems: " + getSystems();
+    tempString += "Number of main rotary systems: " + getMain();
+    tempString += "Number of rear rotary systems: " + getRear();
+    tempString += "Number of blades: " + getBlades();
+    tempString += "Lenght of main blades: " + getMainLenght();
     tempString += "Lenght of rear blades: " + getRearLenght() + "\n";
     tempString += "Superclass Details: " + super.toString();
 

@@ -78,11 +78,11 @@ public class hotAirBalloon extends airVehicle {
 		}
 
 public String toString() {
-    String tempString = "hotAirBalloon Details:\n";
-    tempString += "Balloon volume: " + getVolume() + "\n";
-    tempString += "Basket weight: " + getBasket() + "\n";
-    tempString += "Balloon weight: " + getWeight() + "\n";
-    tempString += "Number of balloon colours: " + getTotalColours() + "\n";
+    String tempString = "hotAirBalloon Details:";
+    tempString += "Balloon volume: " + getVolume();
+    tempString += "Basket weight: " + getBasket();
+    tempString += "Balloon weight: " + getWeight();
+    tempString += "Number of balloon colours: " + getTotalColours();
     tempString += "List of balloon colours: " + getColours() + "\n";
     tempString += "Superclass Details: " + super.toString();
 
