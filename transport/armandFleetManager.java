@@ -6,7 +6,7 @@ class fleet manager will be used to create and manuipulate a number of objects a
 @version 202312061806
 @see vehicle
 */
-public class fleetManager 
+public class armandFleetManager 
 { // start declaration of the fleetManager class
 	/** main method thjat will test the creation and management of some vehicles */
 	public static void main(java.lang.String[] args)

@@ -48,15 +48,15 @@ public class jetski extends waterVehicle {
    public String toString() {
     String tempString = "Jetski Details:\n";
       tempString += "numberOfTopDeck: " + getnumberOfTopDeck() + "\n";
-      tempString +- "numberOfHulls: " +getnumberOfHulls() + "\n";
-      tempString +- "numberOfEngines: " + getnumberOfEngines() + \n";
-      tempString +- "numberOfFuelLines: " + getnumberOfFuelLines() + \n";
-      tempString +- "numberOfElectronics: " + getnumberOfElectronics() + \n";
-      tempString +- "numberOfStorageBins: " + getnumberOfStorageBins() + \n";
-      tempString +- "numberOfSeats: " + getnumberOfSeats() + \n";
-      tempString +- "numberOfHandleBars: " + getnumberOfHandleBars() + \n";
-      tempString +- "numberOfCleats: " + getnumberOfCleats() + \n";
-      tempString +- "numberOfReboardingSteps;: " + getnumberOfReboardingSteps() + \n";
+      tempString += "numberOfHulls: " +getnumberOfHulls() + "\n";
+      tempString += "numberOfEngines: " + getnumberOfEngines() + "\n";
+      tempString += "numberOfFuelLines: " + getnumberOfFuelLines() + "\n";
+      tempString += "numberOfElectronics: " + getnumberOfElectronics() + "\n";
+      tempString += "numberOfStorageBins: " + getnumberOfStorageBins() + "\n";
+      tempString += "numberOfSeats: " + getnumberOfSeats() + "\n";
+      tempString += "numberOfHandleBars: " + getnumberOfHandleBars() + "\n";
+      tempString += "numberOfCleats: " + getnumberOfCleats() + "\n";
+      tempString += "numberOfReboardingSteps;: " + getnumberOfReboardingSteps() + "\n";
 
       return tempString;
    }
