@@ -32,12 +32,12 @@ public class shalomFleetManager
 		car myCar 		= new car();		// create an anonymous car (no parameters)
 		plane myPlane		= new plane(200, 16, "Aer Lingus"); // create a plane with 200 economy and 16 first-class seats
 		hotAirBalloon myHAB	= new hotAirBalloon();	// create an anonymous hotAirBalloon (no parameters)
-		helicopter myHelicopter	= new helicopter();	// create an anonymous helicopter (no parameters)
+		// helicopter myHelicopter	= new helicopter();	// create an anonymous helicopter (no parameters)
 		
 		System.out.println("Now that we have created them, we will print them out");
 			waitASecond(1);
-		System.out.println(myTruck);
-			waitASecond(1);
+		// System.out.println(myTruck);
+		//	waitASecond(1);
 		System.out.println(myMotorbike);
 			waitASecond(1);
 		System.out.println(myCar);
