@@ -7,9 +7,9 @@
  * //version 1.0
  * @see vehicle
  */
-public class PaddyFLeetManager {
+public class patrickFleetManager {
 
-    // start declaration of the PaddyFLeetManager class
+    // start declaration of the patrickFleetManager class
 
     /** 
      * Main method that will test the creation and management of some vehicles
