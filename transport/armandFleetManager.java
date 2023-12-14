@@ -6,7 +6,7 @@
  * @version 202312061806
  * @see vehicle
  */
-public class fleetManager {
+public class armandFleetManager {
 
     /** main method that will test the creation and management of some vehicles */
     public static void main(java.lang.String[] args) {
