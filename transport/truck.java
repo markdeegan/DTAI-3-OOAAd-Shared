@@ -18,6 +18,11 @@ public class truck extends landVehicle {
 
     // ... constructors ...
 
+    // Mark Deegan added the no parameters constructor
+    public truck()
+	{
+	}
+
     /**
      * Constructs a truck with specified parameters.
      *

@@ -30,11 +30,14 @@ public class raft extends waterVehicle {
    }
    public String toString() {
     String tempString = "Raft Details:\n";
+	/* Mark Deegan, commenting out the following lines because most of the functions used do not exist */
+/* COmmenting out from HERE 	
       tempString += "numberOfTubes: " + getnumberOfTubes() + "\n";
-      tempString +- "numberOfSeams: " +getnumberOfSeams() + "\n";
-      tempString +- "numberOfValves: " + getnumberOfValves() + \n";
-      tempString +- "numberOfFloors: " + getnumberOfFloors() + \n";
-      tempString +- "numberOfThwarts: " + getnumberOfThwarts() + \n";
+      tempString += "numberOfSeams: " +getnumberOfSeams() + "\n";
+      tempString += "numberOfValves: " + getnumberOfValves() + "\n";
+      tempString += "numberOfFloors: " + getnumberOfFloors() + "\n";
+      tempString += "numberOfThwarts: " + getnumberOfThwarts() + "\n";
+to HERE */
 
       return tempString;
    }    
