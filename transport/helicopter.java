@@ -67,26 +67,33 @@ public class helicopter extends airVehicle {
 		}
 
         /**Getter methods*/
+
+        /**Getter method for number of rotary systems of the helicopter*/
 		public int getSystems() {
 		        return numberOfRotarySystems;
         }
 
+        /**Getter method for number of main rotary systems of the helicopter*/
         public int getMain() {
 		        return numberOfMainSystems;
         }
 
+        /**Getter method for number of rear rotary systems of the helicopter*/
         public int getRear(){
 				return numberOfRearSystems;
 		}
 
+        /**Getter method for number of blades of helicopter*/
 		public int getBlades(){
 				return numberOfBlades;
 		}
 
+        /**Getter method for the length of blades on the main rotary system(s)*/
 		public float getMainLenght(){
 			    return mainBladeLength;
 		}
 
+        /**Getter method for the length of blades on the rear rotary system(s)*/
 		public float getRearLenght(){
 			    return rearBladeLength;
 		}
