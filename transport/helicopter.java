@@ -66,6 +66,47 @@ public class helicopter extends airVehicle {
 		public helicopter() {
 		}
 
+        //Getter methods
+		public int getSystems() {
+		        return numberOfRotarySystems;
+        }
+
+        public int getMain() {
+		        return numberOfMainSystems;
+        }
+
+        public int getRear(){
+				return numberOfRearSystems;
+		}
+
+		public int getBlades(){
+				return numberOfBlades;
+		}
+
+		public float getMainLenght(){
+			    return mainBladeLength;
+		}
+
+		public float getRearLenght(){
+			    return rearBladeLenght;
+		}
+
+public String toString() {
+    String tempString = "Helicopter Details:\n";
+    tempString += "Number of rotary systems: " + getSystems() + "\n";
+    tempString += "Number of main rotary systems: " + getMain() + "\n";
+    tempString += "Number of rear rotary systems: " + getRear() + "\n";
+    tempString += "Number of blades: " + getBlades() + "\n";
+    tempString += "Lenght of main blades: " + getMainLenght() + "\n";
+    tempString += "Lenght of rear blades: " + getRearLenght() + "\n";
+    tempString += "Superclass Details: " + super.toString();
+
+
+
+
+
+    return tempString;
+    } // ends toString method
 
 
 	}

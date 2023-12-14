@@ -56,6 +56,38 @@ public class hotAirBalloon extends airVehicle {
 		public hotAirBalloon() {
 		}
 
+		//Getter methods
+		public float getVolume() {
+		        return balloonVolume;
+        }
+
+        public float getBasket() {
+		        return basketWeight;
+        }
+
+        public float getWeight(){
+				return balloonWeight;
+		}
+
+		public int getTotalColours(){
+				return totalBalloonColours;
+		}
+
+		public String getColours(){
+			    return balloonColours;
+		}
+
+public String toString() {
+    String tempString = "hotAirBalloon Details:\n";
+    tempString += "Balloon volume: " + getVolume() + "\n";
+    tempString += "Basket weight: " + getBasket() + "\n";
+    tempString += "Balloon weight: " + getWeight() + "\n";
+    tempString += "Number of balloon colours: " + getTotalColours() + "\n";
+    tempString += "List of balloon colours: " + getColours() + "\n";
+    tempString += "Superclass Details: " + super.toString();
+
+
+
 
 
     return tempString;
