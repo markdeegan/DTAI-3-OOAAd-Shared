@@ -29,7 +29,9 @@ public class truck extends landVehicle {
      */
     public truck(int axles, int exhaustPipes, int seats, float cargoCapacity, String fuelType) {
         // Call the constructor of the superclass
-        super(axles, seats, fuelType);
+	// Mark Deegan removed this as there is no constructor in the landVehicle class
+	// thaty matches these parameters
+        // super(axles, seats, fuelType);
 
         this.numberOfExhaustPipes = exhaustPipes;
         this.cargoCapacity = cargoCapacity;
