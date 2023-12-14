@@ -8,17 +8,17 @@
 This is to create class hotAirBalloon which extends class airVehicle
 */
 
-//Declare the public class hotAirBalloon, extending air vehicle class
+/**Declare the public class hotAirBalloon, extending air vehicle class*/
 public class hotAirBalloon extends airVehicle {
 
-	 	//Private variables
-	    private float balloonVolume = 2500; //Define the maximum volume of the balloon
-	    private float basketWeight = 64; //Define the weight of the basket
-	    private float balloonWeight = 110; //Define the weight of the balloon
-	    private int totalBalloonColours = 1; //Total number of colours on the balloon
-	    private String balloonColours = ""; //List colour(s) of the balloon
+	 	/**Private variables*/
+	    private float balloonVolume = 2500; /**Define the maximum volume of the balloon*/
+	    private float basketWeight = 64; /**Define the weight of the basket*/
+	    private float balloonWeight = 110; /**Define the weight of the balloon*/
+	    private int totalBalloonColours = 1; /**Total number of colours on the balloon*/
+	    private String balloonColours = ""; /**List colour(s) of the balloon*/
 
-		//Constructor with all variables from parent class airVehicle
+		/**Constructor with all variables from parent class airVehicle*/
 		public hotAirBalloon(int engines, int tires, int propellers, int weight, int seats, int fuelTank, int lights, int axels, int NumberOfwings){
 			super(engines, tires, propellers, weight, seats, fuelTank, lights, axels, NumberOfwings);
 		}
@@ -39,7 +39,7 @@ public class hotAirBalloon extends airVehicle {
 
 		}
 
-		//Constructor with all variables from hotAirBalloon class & parent class airVehicle
+		/**Constructor with all variables from hotAirBalloon class & parent class airVehicle*/
 		public hotAirBalloon(int engines, int tires, int propellers, int weight, int seats, int fuelTank, int lights, int axels, int NumberOfwings, float volume, float basket, float balloon, int totalColours, String colours){
 			super(engines, tires, propellers, weight, seats, fuelTank, lights, axels, NumberOfwings);
 			// MD20231116 1513 it looks like we cannot use both super() and this() in the same constructor
@@ -52,11 +52,11 @@ public class hotAirBalloon extends airVehicle {
 		    balloonColours = colours;
 		}
 
-		//Default Constructor
+		/**Default Constructor*/
 		public hotAirBalloon() {
 		}
 
-		//Getter methods
+		/**Getter methods*/
 		public float getVolume() {
 		        return balloonVolume;
         }
@@ -77,6 +77,7 @@ public class hotAirBalloon extends airVehicle {
 			    return balloonColours;
 		}
 
+/**Declaration of toString() method. All variables are hotAirBalloon parameters are added to a string*/
 public String toString() {
     String tempString = "hotAirBalloon Details:";
     tempString += "Balloon volume: " + getVolume();
@@ -91,6 +92,7 @@ public String toString() {
 
 
     return tempString;
-    } // ends toString method
+    }
+/** ends toString method*/
 
 }
