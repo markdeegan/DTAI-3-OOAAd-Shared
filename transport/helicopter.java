@@ -88,7 +88,7 @@ public class helicopter extends airVehicle {
 		}
 
 		public float getRearLenght(){
-			    return rearBladeLenght;
+			    return rearBladeLength;
 		}
 
 public String toString() {

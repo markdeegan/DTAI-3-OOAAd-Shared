@@ -9,8 +9,8 @@ class fleet manager 2 will be used to create and manuipulate a number of objects
 @see hotAirBalloon
 @see helicopter
 */
-public class fleetManager2
-{ // start declaration of the fleetManager2 class
+public class eoinFleetManager
+{ // start declaration of the eoinFleetManager class
 
 	/** main method that will test the creation and management of some vehicles */
 	public static void main(java.lang.String[] args)
@@ -20,10 +20,10 @@ public class fleetManager2
 	ArrayList<vehicle> myFleet = new ArrayList<vehicle>();
 
 	/** declare an ArrayList to store objects of class helicopter*/
-	ArrayList<car> myCars = new ArrayList<helicopter>();
+	ArrayList<helicopter> myHelicopters = new ArrayList<helicopter>();
 
 	/** declare an ArrayList to store objects of class hotAirBalloon*/
-	ArrayList<car> myCars = new ArrayList<helicopter>();
+	ArrayList<hotAirBalloon> myBalloonFleet = new ArrayList<hotAirBalloon>();
 
 
 	clearScreen();
@@ -34,7 +34,7 @@ public class fleetManager2
 
 
 		hotAirBalloon myHotAirBalloon = new hotAirBalloon();	// create an anonymous hotAirBalloon (no parameters)
-			myFleet.add(myHAB);			// add the Hot Air Balloon to the fleet
+			myFleet.add(myHotAirBalloon);			// add the Hot Air Balloon to the fleet
 		helicopter myHelicopter	= new helicopter();	// create an anonymous helicopter (no parameters)
 			myFleet.add(myHelicopter);		// add the helicopter to the fleet
 
@@ -60,7 +60,7 @@ public class fleetManager2
 				System.out.println(currentVehicle + " is an instance of class hotAirBalloon");
 				System.out.println("So, let's add it to the myHotAirBalloon ArrayList.");
 				System.out.println();
-				myHotAirBalloon.add((hotAirBalloon)currentVehicle);
+				myBalloonFleet.add((hotAirBalloon)currentVehicle);
 			}
 			else {
 
@@ -74,9 +74,9 @@ public class fleetManager2
 
 		System.out.println("Printing out only hotAirBalloon.");
 		// loop through, from i = 0 to i < myhotAirBalloonSize
-    		for (int k = 0; k < myHotAirBalloon.size(); k++) {
+    		for (int k = 0; k < myBalloonFleet.size(); k++) {
 			// just print out the object, relying on the toString method
-			hotAirBalloon currentHotAirBalloon = myHotAirBalloon.get(k);
+			hotAirBalloon currentHotAirBalloon = myBalloonFleet.get(k);
       			System.out.println(currentHotAirBalloon);
 		}
 		System.out.println(myFleet);
