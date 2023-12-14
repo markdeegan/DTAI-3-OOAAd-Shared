@@ -50,7 +50,7 @@ public class eoinFleetManager
 		System.out.println();
 		waitASecond(1);
 
-		System.out.println("Adding cars only to myHotAirBalloon container");
+		System.out.println("Adding hot air balloons only to myHotAirBalloon container");
     		for (int j = 0; j < myFleet.size(); j++) {
 			// check if the object is of class hotAirBalloon,
 			// if it is, add it to the myHotAirBalloon array container
