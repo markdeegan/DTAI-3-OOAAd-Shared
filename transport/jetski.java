@@ -47,6 +47,11 @@ public class jetski extends waterVehicle {
    }
    public String toString() {
     String tempString = "Jetski Details:\n";
+	/* Mark Deegan, commenting out all of the following, since 
+	most of the functions you called do not exist */
+      
+	/* 
+	commentin out from HERE 
       tempString += "numberOfTopDeck: " + getnumberOfTopDeck() + "\n";
       tempString += "numberOfHulls: " +getnumberOfHulls() + "\n";
       tempString += "numberOfEngines: " + getnumberOfEngines() + "\n";
@@ -57,6 +62,7 @@ public class jetski extends waterVehicle {
       tempString += "numberOfHandleBars: " + getnumberOfHandleBars() + "\n";
       tempString += "numberOfCleats: " + getnumberOfCleats() + "\n";
       tempString += "numberOfReboardingSteps;: " + getnumberOfReboardingSteps() + "\n";
+	to HERE */
 
       return tempString;
    }
