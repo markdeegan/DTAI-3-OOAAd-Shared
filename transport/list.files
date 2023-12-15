@@ -1,0 +1,40 @@
+#!/bin/bash
+# loop forever
+# start the infinite while-loop
+while true 
+do
+	# clear the screen
+	
+
+	# fetch changes
+	git fetch
+	
+	# pull changes
+	git pull
+
+	# start the for loop to step through the .java files and try to compile them
+	for FILE in ./*.java
+	# start the do block for the for loop
+		do
+		# try to compile the .java file in question
+		# redirect all error messages to the /dev/null device (the bin)
+		javac $FILE 2>/dev/null
+	
+		# if the result of that was 0, then  compilation worked
+		if [ $? -eq 0 ]
+			# start the if block
+			then # start the if block
+			# echo "compilation worked for: "$FILE
+			# if the result of that was not 0, then the copilatoin failes
+			else
+			# so, tell us that it failed
+			echo "compilation failed for: "$FILE
+		# end the if block
+		fi
+		# end the for loop looping through files to compile
+		done
+	
+	# wait for a while
+	sleep 30
+# end the infinite while loop
+done

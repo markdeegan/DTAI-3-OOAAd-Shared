@@ -1,0 +1,22 @@
+#!/bin/bash
+javac PaddyFleetManager.java 2>/dev/null; echo $?
+javac airVehicle.java 2>/dev/null; echo $?
+javac armandFleetManager.java 2>/dev/null; echo $?
+javac asset.java 2>/dev/null; echo $?
+javac car.java 2>/dev/null; echo $?
+javac fleetManager.java 2>/dev/null; echo $?
+javac fleetManager2.java 2>/dev/null; echo $?
+javac helicopter.java 2>/dev/null; echo $?
+javac hotAirBalloon.java 2>/dev/null; echo $?
+javac jetski.java 2>/dev/null; echo $?
+javac landVehicle.java 2>/dev/null; echo $?
+javac motorbike.java 2>/dev/null; echo $?
+javac plane.java 2>/dev/null; echo $?
+javac raft.java 2>/dev/null; echo $?
+javac shalomFleetManager.java 2>/dev/null; echo $?
+javac shaneFleetManager.java 2>/dev/null; echo $?
+javac ship.java 2>/dev/null; echo $?
+javac subjectToNCT.java 2>/dev/null; echo $?
+javac truck.java 2>/dev/null; echo $?
+javac vehicle.java 2>/dev/null; echo $?
+javac waterVehicle.java 2>/dev/null; echo $?
