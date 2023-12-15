@@ -1,6 +1,6 @@
 /**
  * Application to test the creation and management of a fleet of vehicles
- * class fleet manager will be used to create and manipulate a number of objects all extended from the super class vehicle.
+ * class fleetManager will be used to create and manipulate a number of objects, all extended from the super class vehicle.
  *
  * @author Armand Ediae <a href="mailto:B00147794@mytudublin.ie">Send Mail</a>
  * @version 202312061806
@@ -9,7 +9,7 @@
 public class fleetManager {
 
     /** main method that will test the creation and management of some vehicles */
-    public static void main(java.lang.String[] args) {
+    public static void main(String[] args) {
         waitASecond(1);
         clearScreen();
         waitASecond(1);
@@ -25,9 +25,12 @@ public class fleetManager {
         System.out.println("Done!");
         waitASecond(2);
 
-        truck myTruck = new truck();        // create an anonymous truck (no parameters)
+        // Adjust the constructor parameters for the truck instantiation
+        truck myTruck = new truck(1, 1, 1, 1.0f, "Example");
         motorbike myMotorbike = new motorbike();  // create an anonymous motorbike (no parameters)
         car myCar = new car();            // create an anonymous car (no parameters)
+
+        // Assuming airVehicle, hotAirBalloon, and helicopter are classes you have defined
         plane myPlane = new plane(200, 16, "Aer Lingus"); // create a plane with 200 economy and 16 first-class seats
         hotAirBalloon myHAB = new hotAirBalloon();  // create an anonymous hotAirBalloon (no parameters)
         helicopter myHelicopter = new helicopter();  // create an anonymous helicopter (no parameters)
@@ -41,7 +44,6 @@ public class fleetManager {
         System.out.println(myCar);
         waitASecond(1);
         System.out.println(myPlane);
-        waitASecond(1);
 
         System.out.println();
         System.out.println("All done!");

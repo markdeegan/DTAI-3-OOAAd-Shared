@@ -1,13 +1,10 @@
-// asset.java
+/** Mark Deegan
+@author <a href = "mailto: mark.deegan@tudublin.ie">Mark Deegan</a><br>
+Thu 30 Nov 2023 10:45:50 GMT<br>
+asset interface to make things into assets
+*/
 public interface asset {
-    // Define methods or attributes here
-}
-
-// MainClass.java
-public class MainClass implements asset {
-    public static void main(String[] args) {
-        // Your main method code here
-    }
-
-    // Implement methods from the Asset interface here
+    void setValue(float assetValue);
+    float getValue();
+    void someMethod();
 }

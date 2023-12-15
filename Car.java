@@ -9,7 +9,7 @@
  * @see motorbike
  * @since 1
  */
-public class car extends landVehicle implements subjectToNCT {
+ class car extends landVehicle {
 
     /**
      * Constructs a car with specified parameters.
@@ -22,18 +22,18 @@ public class car extends landVehicle implements subjectToNCT {
      * @param isConvertible Indicates if the car is convertible
      * @param color        Color of the car
      */
-    public car(int headlights, int seats, float engineSize, String gearboxType, String fuelType, boolean isConvertible, String color) {
-        // super(headlights, seats, fuelType, engineSize, gearboxType, color, isConvertible);
+     car(int headlights, int seats, float engineSize, String gearboxType, String fuelType, boolean isConvertible, String color) {
+
     }
 
-    public car(int headlights, int seats, float engineSize, boolean isConvertible) {
+    car(int headlights, int seats, float engineSize, boolean isConvertible) {
         this(headlights, seats, engineSize, "Automatic", "Petrol", isConvertible, "White");
     }
 
     /**
      * Default constructor for a car, using default values for all parameters.
      */
-    public car() {
+    car() {
         this(2, 4, 1.6f, "Automatic", "Petrol", false, "Red");
     }
 
@@ -42,36 +42,36 @@ public class car extends landVehicle implements subjectToNCT {
     /**
      * @return engineSize <br>Returns a float indicating engine capacity in cc
      */
-    public float getEngineSize() {
-        return super.getEngineSize();
+     float GetEngineSize() {
+        return GetEngineSize();
     }
 
-    public String getGearboxType() {
-        return super.getGearboxType();
+     String GetGearboxType() {
+        return GetGearboxType();
     }
 
-    public String getFuelType() {
-        return super.getFuelType();
+     String GetFuelType() {
+        return GetFuelType();
     }
 
-    public boolean isConvertible() {
-        return super.getIsConvertible();
+     boolean isConvertible() {
+        return getIsConvertible();
     }
 
-    public String getColor() {
-        return super.getColor();
+     String GetColor() {
+        return GetColor();
     }
 
     // Setter methods
-    public void setValue(float value) {
+     void SetValue(float Value) {
     }
 
-    public float getValue() {
+     float GetValue() {
         return 0.0f;
     }
 
 
-public String toString() {
+ String ToString() {
     String tempString = "Car Details:\n";
     tempString += "Color: " + getColor() + "\n";
     tempString += "Headlights: " + getHeadlights() + "\n";
@@ -80,7 +80,7 @@ public String toString() {
     tempString += "Gearbox Type: " + getGearboxType() + "\n";
     tempString += "Fuel Type: " + getFuelType() + "\n";
     tempString += "Convertible: " + (isConvertible() ? "Yes" : "No") + "\n";
-    tempString += "Superclass Details: " + super.toString();
+    tempString += "Superclass Details: " + ToString();
 
     return tempString;
     } // ends toString method
