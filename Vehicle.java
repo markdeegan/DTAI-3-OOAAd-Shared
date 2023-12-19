@@ -2,17 +2,17 @@
     Last Updated: 23/11/2023, 12:12, Vehicle Project
     @see Object
     */
-public abstract class vehicle implements asset
-  {
-    private int Standsformachinecapableoftransportingpeople;
-    private int Passengerspacevariesdependingonvehicle;
-	protected float value;
-	public void setValue(float value)
-	{
-	}
+// Vehicle.java
+public abstract class Vehicle implements asset {
+    private int standsForMachineCapableOfTransportingPeople;
+    private int passengerSpaceVariesDependingOnVehicle;
+    protected float value;
 
-	public float getValue()
-	{
-	return 0.0f;
-	}
+    public void setValue(float value) {
+        // Implementation
+    }
+
+    public float getValue() {
+        return 0.0f;  // Placeholder value, update as needed
+    }
 }
