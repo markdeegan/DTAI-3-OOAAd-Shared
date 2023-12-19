@@ -1,5 +1,5 @@
-# DTAI-3-OOAAd-Shared
-Shared Repo for DTAI Stage 3, Object Oriented Analysis and Design, Semester 1, 2023-2024
+# DTAI-H3013-OOAaD
 
-Class Hierarchy can be found here:<br>
-https://htmlpreview.github.io/?https://github.com/markdeegan/DTAI-3-OOAAd-Shared/blob/main/javadocs/index-all.html
+College work for the year 2023/2024 <br>
+This repo. is designed to support, amongst other things, work on the 'Object Oriented Analysis and Design' module.<br>
+This module is delivered by Mark Deegan, who has been invited as a collabprator to this repo.
