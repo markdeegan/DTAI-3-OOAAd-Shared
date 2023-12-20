@@ -1,6 +1,6 @@
 // MainClass.java
-public class MainClass implements asset {
-    public static void main(String[] args) {
+ class MainClass implements Asset {
+	 static void main(String[] args) {
         // Your main method code here
     }
 
