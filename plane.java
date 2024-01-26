@@ -125,4 +125,17 @@ public plane(int seat_number, float maxAltitude, String airline) {
     public void setAirline(String airline) {
         this.airline = airline;
     }
+
+    public String toString() { // using the to string method to create a string represntation of this class which is plane
+        String result = "Plane Details:\n"; // creating a variable called results which begins the string representation of the plane class
+        result += "Airline: " + airline + "\n";// appending the name of the airline to the variable called results but on a newline
+        result += "Total Seats: " + seat_number + "\n";// apppending the total number of seats on a plane on a new line
+        result += "First Class Seats: " + firstClassSeats + "\n";// appendining the number of first class seats
+        result += "Economy Class Seats: " + economyClassSeats + "\n";// appending the number of economy class seats
+        result += "Max Altitude: " + maxAltitude + " meters\n";// appending the maximum altitude of the plane in meteres
+        result += "Range: " + range + " km\n";// appending the range of the plane, indicating how far it can travel, including the unit.
+        result += "Wing Span: " + wingSpan + " meters\n";  // appending the wingspan of the plane, including the unit
+        result += "Cargo Capacity: " + cargoCapacity + " kg\n";// Appends the cargo capacity of the plane, including the unit 
+        return result;// returning the value of the variable result
+    }
 }
