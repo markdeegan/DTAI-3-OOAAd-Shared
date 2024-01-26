@@ -1,14 +1,17 @@
 /**
- * Application to test the creation and management of a fleet of vehicles
- * class fleetManager will be used to create and manipulate a number of objects, all extended from the super class vehicle.
+ * Application to test the creation and management of a fleet of vehicles.
+ * The fleetManager class is used to create and manipulate objects extended from the superclass vehicle.
  *
  * @author Armand Ediae <a href="mailto:B00147794@mytudublin.ie">Send Mail</a>
  * @version 202312061806
  * @see vehicle
  */
-public class fleetManager {
+public class armandFleetManager {
 
-    /** main method that will test the creation and management of some vehicles */
+    /**
+     * Main method to test the creation and management of some vehicles.
+     * Adjust constructor parameters for the truck instantiation.
+     */
     public static void main(String[] args) {
         waitASecond(1);
         clearScreen();
@@ -20,7 +23,7 @@ public class fleetManager {
         waitASecond(2);
         System.out.println("Let's wait a little, and pretend this takes a while to complete...");
         waitASecond(2);
-        System.out.println("processing your order...");
+        System.out.println("Processing your order...");
         waitASecond(2);
         System.out.println("Done!");
         waitASecond(2);
@@ -30,10 +33,9 @@ public class fleetManager {
         motorbike myMotorbike = new motorbike();  // create an anonymous motorbike (no parameters)
         car myCar = new car();            // create an anonymous car (no parameters)
 
-        // Assuming airVehicle, hotAirBalloon, and helicopter are classes you have defined
-        plane myPlane = new plane(200, 16, "Aer Lingus"); // create a plane with 200 economy and 16 first-class seats
-        hotAirBalloon myHAB = new hotAirBalloon();  // create an anonymous hotAirBalloon (no parameters)
-        helicopter myHelicopter = new helicopter();  // create an anonymous helicopter (no parameters)
+        // Placeholder for the missing classes
+        // hotAirBalloon myHAB = new hotAirBalloon();  // create an anonymous hotAirBalloon (no parameters)
+        // helicopter myHelicopter = new helicopter();  // create an anonymous helicopter (no parameters)
 
         System.out.println("Now that we have created them, we will print them out");
         waitASecond(1);
@@ -42,21 +44,27 @@ public class fleetManager {
         System.out.println(myMotorbike);
         waitASecond(1);
         System.out.println(myCar);
-        waitASecond(1);
-        System.out.println(myPlane);
+
+        // Placeholder for the missing classes
+        // System.out.println(myHAB);
+        // System.out.println(myHelicopter);
 
         System.out.println();
         System.out.println("All done!");
     }
 
-    /** method to clear screen (console) in a command-line application using escape sequences */
+    /**
+     * Method to clear the screen (console) in a command-line application using escape sequences.
+     */
     public static void clearScreen() {
         System.out.print("\033[H\033[2J");
         System.out.flush();
     }
 
-    /** waitASecond method to wait a fixed number of seconds
-     * default value, 1 second, otherwise seconds*1000 milliseconds */
+    /**
+     * Method to wait a fixed number of seconds.
+     * Default value is 1 second; otherwise, seconds * 1000 milliseconds.
+     */
     public static void waitASecond(int seconds) {
         try {
             Thread.sleep(seconds * 1000);
