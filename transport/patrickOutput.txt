@@ -1,0 +1,23 @@
+[H[2JHello. I am the fleet manager
+I am going to create some instances of vehicles.
+These will all be instances of classes derived from the superclass (base class) vehicle
+Let's wait a little, and pretend this takes a while to complete...
+processing your order...
+Done!
+Now that we have created them, we will print them out
+truck@73d16e93
+Number of Exhaust Pipes: 0
+Cargo Capacity: 0.0 cubic meters
+motorbike@45ee12a7
+Car Details:
+Color: null
+Headlights: 0
+Number of Seats: 0
+Engine Size: 0.0 cc
+Gearbox Type: null
+Fuel Type: null
+Convertible: No
+Superclass Details: car@2503dbd3
+plane@4b67cf4d
+
+All done!

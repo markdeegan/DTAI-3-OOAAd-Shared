@@ -1,0 +1,11 @@
+[H[2JHello. I am the fleet manager
+I am going to create some instances of vehicles.
+These will all be instances of classes derived from the superclass (base class) vehicle
+Let's wait a little, and pretend this takes a while to complete...
+processing your order...
+Done!
+Now that we have created them, we will print them out
+motorbike@18b4aac2
+plane@764c12b6
+
+All done!

@@ -1,0 +1,29 @@
+[H[2JCreating some instances of vehicles
+
+Now that we have created them, we will print them out
+Printing out all vehicles.
+hotAirBalloon Details:Balloon volume: 2500.0Basket weight: 64.0Balloon weight: 110.0Number of balloon colours: 1List of balloon colours: 
+Superclass Details: hotAirBalloon@1540e19d
+Helicopter Details:Number of rotary systems: 2Number of main rotary systems: 1Number of rear rotary systems: 1Number of blades: 8Lenght of main blades: 7.8Lenght of rear blades: 1.2
+Superclass Details: helicopter@677327b6
+
+Adding hot air balloons only to myHotAirBalloon container
+hotAirBalloon Details:Balloon volume: 2500.0Basket weight: 64.0Balloon weight: 110.0Number of balloon colours: 1List of balloon colours: 
+Superclass Details: hotAirBalloon@1540e19d is an instance of class hotAirBalloon
+So, let's add it to the myHotAirBalloon ArrayList.
+
+Helicopter Details:Number of rotary systems: 2Number of main rotary systems: 1Number of rear rotary systems: 1Number of blades: 8Lenght of main blades: 7.8Lenght of rear blades: 1.2
+Superclass Details: helicopter@677327b6 is not an instance of class hotAirBalloon
+So, we won't be adding it to the myHotAirBalloon arrayList.
+
+
+Printing out only hotAirBalloon.
+hotAirBalloon Details:Balloon volume: 2500.0Basket weight: 64.0Balloon weight: 110.0Number of balloon colours: 1List of balloon colours: 
+Superclass Details: hotAirBalloon@1540e19d
+[hotAirBalloon Details:Balloon volume: 2500.0Basket weight: 64.0Balloon weight: 110.0Number of balloon colours: 1List of balloon colours: 
+Superclass Details: hotAirBalloon@1540e19d, Helicopter Details:Number of rotary systems: 2Number of main rotary systems: 1Number of rear rotary systems: 1Number of blades: 8Lenght of main blades: 7.8Lenght of rear blades: 1.2
+Superclass Details: helicopter@677327b6]
+hotAirBalloon Details:Balloon volume: 2500.0Basket weight: 64.0Balloon weight: 110.0Number of balloon colours: 1List of balloon colours: 
+Superclass Details: hotAirBalloon@1540e19d
+
+All done!
